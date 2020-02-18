@@ -58,7 +58,7 @@
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="556e697423232344415441232323" name="Unit">
+    <profileType id="0a4a-90e1-ae4c-a2c3" name="Unit - Infantry">
       <characteristicTypes>
         <characteristicType id="556e6974205479706523232344415441232323" name="Unit Type"/>
         <characteristicType id="575323232344415441232323" name="WS"/>
@@ -72,7 +72,7 @@
         <characteristicType id="5361766523232344415441232323" name="Save"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="56656869636c6523232344415441232323" name="Vehicle">
+    <profileType id="56656869636c6523232344415441232323" name="Unit - Vehicle">
       <characteristicTypes>
         <characteristicType id="425323232344415441232323" name="BS"/>
         <characteristicType id="46726f6e7423232344415441232323" name="Front"/>
@@ -82,7 +82,7 @@
         <characteristicType id="5479706523232344415441232323" name="Type"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="57616c6b657223232344415441232323" name="Walker">
+    <profileType id="57616c6b657223232344415441232323" name="Unit - Walker">
       <characteristicTypes>
         <characteristicType id="575323232344415441232323" name="WS"/>
         <characteristicType id="425323232344415441232323" name="BS"/>
@@ -165,7 +165,7 @@
         <characteristicType id="ea53-f5c7-08e4-980c" name="Disciplines"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3a08-ea03-a598-8615" name="Flyer">
+    <profileType id="3a08-ea03-a598-8615" name="Unit - Flyer">
       <characteristicTypes>
         <characteristicType id="9878-e3f6-b7b4-7225" name="BS"/>
         <characteristicType id="3a4e-bc1d-4a12-7176" name="Front"/>
@@ -276,7 +276,7 @@
             <characteristic name="Type" typeId="5479706523232344415441232323">Heavy  3, Skyfire</characteristic>
           </characteristics>
         </profile>
-        <profile id="7b84-f22b-69a7-5547" name="Crusade Fleet Avenger Strike Fighter" publicationId="ca571888--pubN66580" page="47" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Vehicle">
+        <profile id="7b84-f22b-69a7-5547" name="Crusade Fleet Avenger Strike Fighter" publicationId="ca571888--pubN66580" page="47" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
           <characteristics>
             <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
             <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
@@ -464,7 +464,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ba5-1c40-9f77-7d76" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b441-fd74-6d6f-d155" name="Navigator" publicationId="ca571888--pubN67636" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="b441-fd74-6d6f-d155" name="Navigator" publicationId="ca571888--pubN67636" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -549,7 +549,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
     </selectionEntry>
     <selectionEntry id="b894-adfc-6d3d-fde4" name="Legio Titanicus Warhound Scout Titan" publicationId="ca571888--pubN68042" page="260" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="75b5-ba5d-2c7a-123f" name="Warhound Scout Titan" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="75b5-ba5d-2c7a-123f" name="Warhound Scout Titan" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -711,7 +711,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
     </selectionEntry>
     <selectionEntry id="1fa3-1f86-94a6-bf48" name="Legio Titanicus Reaver Battle Titan" publicationId="ca571888--pubN69050" page="91" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a11d-4866-5a06-3cec" name="Reaver Battle Titan" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="a11d-4866-5a06-3cec" name="Reaver Battle Titan" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -1002,7 +1002,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
     </selectionEntry>
     <selectionEntry id="ab80-0fef-3e93-8e64" name="Legio Titanicus Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fcda-52b9-f8dc-9394" name="Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="fcda-52b9-f8dc-9394" name="Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -2620,7 +2620,7 @@ D6    Result		S	AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2877-99c1-1629-8de9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f9a4-fb1b-1cfa-33ce" name="Munitorum Armoured Container" publicationId="ca571888--pubN80309" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="f9a4-fb1b-1cfa-33ce" name="Munitorum Armoured Container" publicationId="ca571888--pubN80309" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Terrain</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -3332,7 +3332,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bbc7426f-0a42-4f60-04e5-890db3826ec3" name="Questoris Knight Paladin" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="bbc7426f-0a42-4f60-04e5-890db3826ec3" name="Questoris Knight Paladin" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3468,7 +3468,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2bc44173-c43d-b7d0-9ad5-65c0f0c6ff82" name="Questoris Knight Errant" publicationId="ca571888--pubN84158" page="302" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="2bc44173-c43d-b7d0-9ad5-65c0f0c6ff82" name="Questoris Knight Errant" publicationId="ca571888--pubN84158" page="302" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3575,7 +3575,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b47bae59-6ba9-18c4-2954-8966bd11beb8" name="Questoris Knight Magaera" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="b47bae59-6ba9-18c4-2954-8966bd11beb8" name="Questoris Knight Magaera" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3665,7 +3665,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 6, Concussive</characteristic>
           </characteristics>
         </profile>
-        <profile id="0b8433ff-6e32-e9aa-94e1-16e91997c267" name="Cerastus Knight-Lancer" publicationId="ca571888--pubN84158" page="305" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="0b8433ff-6e32-e9aa-94e1-16e91997c267" name="Cerastus Knight-Lancer" publicationId="ca571888--pubN84158" page="305" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3715,7 +3715,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 5, Deflagrate</characteristic>
           </characteristics>
         </profile>
-        <profile id="8a01-a44f-6d0d-9593" name="Questoris Knight Styrix" publicationId="ca571888--pubN84158" page="304" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="8a01-a44f-6d0d-9593" name="Questoris Knight Styrix" publicationId="ca571888--pubN84158" page="304" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3784,7 +3784,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5858fd67-30bf-5157-905b-4f0823ddbae7" name="Cerastus Knight-Castigator" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="5858fd67-30bf-5157-905b-4f0823ddbae7" name="Cerastus Knight-Castigator" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3844,7 +3844,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7b5e9ae8-bdbc-ad55-b137-03e11dce5ede" name="Cerastus Knight-Acheron" publicationId="ca571888--pubN84158" page="307" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="7b5e9ae8-bdbc-ad55-b137-03e11dce5ede" name="Cerastus Knight-Acheron" publicationId="ca571888--pubN84158" page="307" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -3903,7 +3903,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="472f-d151-1754-59fd" name="Questoris Knight Warden" publicationId="ca571888--pubN87368" page="104" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="472f-d151-1754-59fd" name="Questoris Knight Warden" publicationId="ca571888--pubN87368" page="104" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4065,7 +4065,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1f3a-39b8-f98b-a0bd" name="Questoris Knight Gallant" publicationId="ca571888--pubN87368" page="105" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="1f3a-39b8-f98b-a0bd" name="Questoris Knight Gallant" publicationId="ca571888--pubN87368" page="105" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4197,7 +4197,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="29b8-80d5-1d6d-5410" name="Questoris Knight Crusader" publicationId="ca571888--pubN87368" page="106" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="29b8-80d5-1d6d-5410" name="Questoris Knight Crusader" publicationId="ca571888--pubN87368" page="106" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4372,7 +4372,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8f86-62fb-dba4-afc4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="95c1-8de7-bef1-6fa1" name="Cerastus Knight-Atrapos" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="95c1-8de7-bef1-6fa1" name="Cerastus Knight-Atrapos" publicationId="ca571888--pubN84158" page="306" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -4478,7 +4478,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f38-2f45-a1a8-1aab" type="max"/>
       </constraints>
       <profiles>
-        <profile id="208e-17a3-a067-6ea1" name="Acastus Knight Porphyrion" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="208e-17a3-a067-6ea1" name="Acastus Knight Porphyrion" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
@@ -4653,7 +4653,7 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7c187296-f9ed-0293-9bb2-c8071f1a26f5" name="Archmagos Draykavac" publicationId="ca571888--pubN84158" page="300" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="7c187296-f9ed-0293-9bb2-c8071f1a26f5" name="Archmagos Draykavac" publicationId="ca571888--pubN84158" page="300" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4743,7 +4743,7 @@ Attacking player rolls 2D6.  If the target has a Toughness characteristic, they 
     </selectionEntry>
     <selectionEntry id="fb92-d215-2011-f911" name="Warlord-Sinister Pattern Battle Psi-Titan" publicationId="ca571888--pubN92115" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="453d-fead-0bd1-2aa3" name="Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="453d-fead-0bd1-2aa3" name="Warlord Battle Titan" publicationId="ca571888--pubN68042" page="262" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -5398,7 +5398,7 @@ Please let us know what worked well as a part of these rules and also what could
     </selectionEntry>
     <selectionEntry id="ecb3-83b9-4ba7-47a9" name="Legio Titanicus Warbringer Nemesis Titan" publicationId="ca571888--pubN95721" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c6b0-382e-4882-7efa" name="Warbringer Nemesis Titan" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Walker">
+        <profile id="c6b0-382e-4882-7efa" name="Warbringer Nemesis Titan" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -8811,7 +8811,7 @@ Some can also Hover – see page 81. Zooming allows the Flyer to move at extreme
         <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Force</characteristic>
       </characteristics>
     </profile>
-    <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" publicationId="ca571888--pubN113873" page="101" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" publicationId="ca571888--pubN113873" page="101" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -9017,7 +9017,7 @@ Some can also Hover – see page 81. Zooming allows the Flyer to move at extreme
         <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Skyfire, Interceptor, Heat Seeker</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd4fa1b2-43b4-75d6-974c-83c1a4115c07" name="Cyber-occularis" publicationId="ca571888--pubN85920" page="207" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="dd4fa1b2-43b4-75d6-974c-83c1a4115c07" name="Cyber-occularis" publicationId="ca571888--pubN85920" page="207" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jet Pack Infantry</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
