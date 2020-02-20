@@ -204,6 +204,14 @@
     <categoryEntry id="918a-0a2e-4bc3-623d" name="HQ" hidden="false"/>
     <categoryEntry id="e76a-5ff6-67c9-7263" name="No Force Org" hidden="false"/>
     <categoryEntry id="2fb2-4f84-7704-788d" name="Troops" hidden="false"/>
+    <categoryEntry id="646b-b56d-d50f-d813" name="Support Squad" hidden="false">
+      <rules>
+        <rule id="6303-c1a7-14c5-56f0" name="Support Squad" publicationId="ca571888--pubN74807" page="173" hidden="false">
+          <description>A squad with this special rule may not be chosen as a compulsory choice for the army as part of the Force Organisation chart.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="9bb9-69b9-f2c0-a004" name="Compulsory Troops" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="New ForceEntry" hidden="true">
@@ -211,7 +219,7 @@
         <modifier type="set" field="hidden" value="true"/>
       </modifiers>
     </forceEntry>
-    <forceEntry id="9e2a-7716-34fd-7f5d" name=" Crusade" publicationId="ca571888--pubN73996" page="133" hidden="false">
+    <forceEntry id="9e2a-7716-34fd-7f5d" name="Crusade" publicationId="ca571888--pubN73996" page="133" hidden="false">
       <categoryLinks>
         <categoryLink id="b1c1-c696-6fd2-8c7e" name="HQ" hidden="false" targetId="918a-0a2e-4bc3-623d" primary="false">
           <constraints>
@@ -247,6 +255,11 @@
           </constraints>
         </categoryLink>
         <categoryLink id="4d74-bb2e-07fb-57f4" name="No Force Org" hidden="false" targetId="e76a-5ff6-67c9-7263" primary="false"/>
+        <categoryLink id="6c6b-494f-bc95-f690" name="Compulsory" hidden="false" targetId="9bb9-69b9-f2c0-a004" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1c-4765-6a10-bdbf" type="min"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
