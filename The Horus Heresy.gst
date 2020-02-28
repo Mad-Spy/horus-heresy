@@ -60,7 +60,6 @@
   <profileTypes>
     <profileType id="0a4a-90e1-ae4c-a2c3" name="Unit - Infantry">
       <characteristicTypes>
-        <characteristicType id="556e6974205479706523232344415441232323" name="Unit Type"/>
         <characteristicType id="575323232344415441232323" name="WS"/>
         <characteristicType id="425323232344415441232323" name="BS"/>
         <characteristicType id="5323232344415441232323" name="S"/>
@@ -79,7 +78,6 @@
         <characteristicType id="5369646523232344415441232323" name="Side"/>
         <characteristicType id="5265617223232344415441232323" name="Rear"/>
         <characteristicType id="485023232344415441232323" name="HP"/>
-        <characteristicType id="5479706523232344415441232323" name="Type"/>
       </characteristicTypes>
     </profileType>
     <profileType id="57616c6b657223232344415441232323" name="Unit - Walker">
@@ -93,7 +91,6 @@
         <characteristicType id="4923232344415441232323" name="I"/>
         <characteristicType id="4123232344415441232323" name="A"/>
         <characteristicType id="485023232344415441232323" name="HP"/>
-        <characteristicType id="5479706523232344415441232323" name="Type"/>
       </characteristicTypes>
     </profileType>
     <profileType id="576561706f6e23232344415441232323" name="Weapon">
@@ -212,6 +209,17 @@
       </rules>
     </categoryEntry>
     <categoryEntry id="9bb9-69b9-f2c0-a004" name="Compulsory Troops" hidden="false"/>
+    <categoryEntry id="2bf3-3d3e-dfbd-6a15" name="Flyer" hidden="false"/>
+    <categoryEntry id="03d8-25ec-1703-4eb7" name="Hover" hidden="false"/>
+    <categoryEntry id="859e-eb7a-fe85-ebb0" name="Tank" hidden="false"/>
+    <categoryEntry id="b543-5ba8-6c05-6118" name="Transport" hidden="false"/>
+    <categoryEntry id="a1c9-22cb-f637-a0d0" name="Infantry" hidden="false"/>
+    <categoryEntry id="0693-7cbb-c776-ddab" name="Open-topped" hidden="false"/>
+    <categoryEntry id="2c55-2037-45a4-a4ce" name="Vehicle" hidden="false"/>
+    <categoryEntry id="6435-0108-0bc0-3621" name="Jetbike" hidden="false"/>
+    <categoryEntry id="a3a4-9356-1093-60d6" name="Character" hidden="false"/>
+    <categoryEntry id="7ff1-9df7-6ded-1cd1" name="Skimmer" hidden="false"/>
+    <categoryEntry id="2f52-529a-adf2-940b" name="Fast" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="New ForceEntry" hidden="true">
@@ -296,7 +304,6 @@
             <characteristic name="Side" typeId="5369646523232344415441232323">10</characteristic>
             <characteristic name="Rear" typeId="5265617223232344415441232323">10</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">2</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Flyer</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -479,7 +486,6 @@
       <profiles>
         <profile id="b441-fd74-6d6f-d155" name="Navigator" publicationId="ca571888--pubN67636" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">2</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -573,7 +579,6 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">9</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="d000-e664-a60e-b79a" name="Void Shields (2)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -735,7 +740,6 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">18</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="9763-d9aa-f96b-6315" name="Void Shields (4)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -1026,7 +1030,6 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
             <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">30</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="d768-a43f-515a-2e63" name="Void Shields (6)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -2635,7 +2638,6 @@ D6    Result		S	AP
               <profiles>
                 <profile id="f9a4-fb1b-1cfa-33ce" name="Munitorum Armoured Container" publicationId="ca571888--pubN80309" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Terrain</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
                     <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="5323232344415441232323">-</characteristic>
@@ -3356,7 +3358,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="4580dd76-7ecd-4c31-c664-d442c492779a" name="Questoris battlecannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -3492,7 +3493,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="d759c074-6ff7-9f45-c862-50a400f9b12a" name="Thermal Cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -3599,7 +3599,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3689,7 +3688,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3739,7 +3737,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3808,7 +3805,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="95076c1b-9de6-414b-85e6-b38f167aa205" name="Castigator pattern bolt cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -3868,7 +3864,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="038c1fc5-ebbd-253e-04a0-a5166ab1b99a" name="Acheron pattern flame cannon" publicationId="ca571888--pubN84158" page="308" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -3927,7 +3922,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="07d8-8572-88b4-a0e5" name="Avenger Gatling Cannon" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -4089,7 +4083,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="c7a4-c8f2-88e1-3651" name="Thunderstrike Gauntlet" publicationId="ca571888--pubN87368" page="117" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -4221,7 +4214,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-Heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="619c-3ff0-05a9-fd45" name="Avenger Gatling Cannon" publicationId="ca571888--pubN87368" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -4396,7 +4388,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4502,7 +4493,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
             <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">8</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4668,7 +4658,6 @@ The Bunkers of the Castellum Stronghold have a 5+ invulnerable save against shoo
       <profiles>
         <profile id="7c187296-f9ed-0293-9bb2-c8071f1a26f5" name="Archmagos Draykavac" publicationId="ca571888--pubN84158" page="300" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry (Character)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4767,7 +4756,6 @@ Attacking player rolls 2D6.  If the target has a Toughness characteristic, they 
             <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">30</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="4ab6-c2e4-384a-402a" name="Void Shields (6)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -5422,7 +5410,6 @@ Please let us know what worked well as a part of these rules and also what could
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">18</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">Super-heavy Walker</characteristic>
           </characteristics>
         </profile>
         <profile id="31e5-5ce9-aad2-cb6c" name="Void Shields (6)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -8826,7 +8813,6 @@ Some can also Hover – see page 81. Zooming allows the Flyer to move at extreme
     </profile>
     <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" publicationId="ca571888--pubN113873" page="101" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
       <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
         <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
         <characteristic name="S" typeId="5323232344415441232323">-</characteristic>
@@ -9032,7 +9018,6 @@ Some can also Hover – see page 81. Zooming allows the Flyer to move at extreme
     </profile>
     <profile id="dd4fa1b2-43b4-75d6-974c-83c1a4115c07" name="Cyber-occularis" publicationId="ca571888--pubN85920" page="207" hidden="false" typeId="0a4a-90e1-ae4c-a2c3" typeName="Unit - Infantry">
       <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jet Pack Infantry</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
         <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
         <characteristic name="S" typeId="5323232344415441232323">2</characteristic>
