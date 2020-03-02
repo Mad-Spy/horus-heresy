@@ -8483,15 +8483,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d584-49ab-1d38-5692" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7370-2768-5702-b6f6" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="d287-0d48-feee-5e42" name="Atomantic Shielding" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
-              <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Contemptor Dreadnought has a 5+ invulnerable save against shooting attacks and explosions, and 6+ against attacks suffered in close combat. In addition, if the Contemptor suffers a ‘Vehicle Explodes’ damage result, add +1&quot; to the radius of the blast.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink id="d9d2-b2bf-120f-7b1f" name="Fleet" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
+            <infoLink id="abbd-3fde-ea3c-1003" name="Atomantic Shielding" hidden="false" targetId="d2c4-9b50-ba08-f931" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="8be0-8aff-5468-5477" name="Twin-linked heavy bolter arm" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e9e-783e-e8a2-e1b3">
@@ -14228,6 +14222,9 @@ Note that this means while a preferred target type is within range, it is possib
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -14242,6 +14239,9 @@ Note that this means while a preferred target type is within range, it is possib
                 <infoLink id="984e-78e8-5048-b115" name="Quad Heavy Bolter" hidden="false" targetId="107c-1b9d-758e-4e8d" type="profile"/>
                 <infoLink id="ac3e-29c1-753a-4ba6" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="76ef-89f5-59bf-7d3c" name="Reaper autocannon battery" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -14284,6 +14284,9 @@ Note that this means while a preferred target type is within range, it is possib
                 <infoLink id="772d-d2b4-2db8-5e0d" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
                 <infoLink id="4bc2-376e-728f-8280" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="724d-d81f-7680-acc7" name="Four hellstrike missiles" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -14489,6 +14492,9 @@ Note that this means while a preferred target type is within range, it is possib
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -14635,6 +14641,9 @@ Note that this means while a preferred target type is within range, it is possib
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -14862,11 +14871,17 @@ Note that this means while a preferred target type is within range, it is possib
                         <infoLink id="e803-9676-8856-7bea" name="Vengeance missile" hidden="false" targetId="7e77-4ce2-8111-b24d" type="profile"/>
                         <infoLink id="c570-3fb7-a364-7e83" name="Vengeance missile" hidden="false" targetId="2c8c-34ee-97b1-bc0a" type="profile"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="94d4-df37-12b3-87e1" name="Hyperios air-defense missiles" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="42c2-7691-dea6-2a32" name="Hyperios missile" hidden="false" targetId="e7de-8547-d31b-9fe1" type="infoGroup"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -14911,6 +14926,9 @@ Note that this means while a preferred target type is within range, it is possib
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a769-e1fb-fc0c-065d" name="Legion Vindicator Siege Tank Squadron" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -15079,8 +15097,2140 @@ Note that this means while a preferred target type is within range, it is possib
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26d7-4757-8cbc-5fed" name="Legion Caestus Assault Ram" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ff4a-1649-a3c6-5996" name="Legion Caestus Assault Ram" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">11</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d349-2de3-3956-7e8b" name="Legion Caestus Assault Ram" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Legion Caestus can transport 10 models (see Special Rules)</characteristic>
+            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
+            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">The Caestus has two access points at the front of its hull.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ab96-7c7e-f7b7-886b" name="Caestus Ram" hidden="false">
+          <description>The vessel is purpose built to survive smashing into a heavily armoured structure, and its forward prow is augmented with field generators. When conducting a ram attack, the Caestus’ controlling player can roll two dice and pick the higher number when determining if it has penetrated the target’s armour and add +1 to any rolls on the Vehicle Damage chart that it uses. The Legion Caestus Assault Ram conducts all of its ramming attacks at Strength 10, in addition to its other rules.
+
+In addition, the Caestus has an invulnerable save of 5+ against any attacks against its Front armour, including any damage it suffers as a result of carrying out a ram or being rammed itself from the front.</description>
+        </rule>
+        <rule id="0287-e619-2d75-1a26" name="Misericord" hidden="false">
+          <description>The ram’s two hull booms contain heavily armoured compartments, each fitted with multiple inertial suppression clamps which lock transported troops in place and protect them from impact. As a result, the Caestus Assault Ram has a transport capacity of 10 models, but may only transport models in power armour, artificer armour or Terminator armour (the latter of which do not count as having the Bulky rule in this specific instance).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="30fe-226f-1841-e2d0" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
+        <infoLink id="1434-de68-818f-d576" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af74-36ce-7d9c-2ab5" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="1116-c2e9-2010-2913" name="Tank" hidden="false" targetId="859e-eb7a-fe85-ebb0" primary="false"/>
+        <categoryLink id="c85f-a73f-da01-40f4" name="Flyer" hidden="false" targetId="2bf3-3d3e-dfbd-6a15" primary="false"/>
+        <categoryLink id="e7a9-9e34-fddc-2825" name="Hover" hidden="false" targetId="03d8-25ec-1703-4eb7" primary="false"/>
+        <categoryLink id="4d5e-c405-54b8-e718" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="734c-fb47-ea0a-02a7" name="Twin-linked magna-melta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe2-6065-bd35-4fbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8849-6646-ad3f-6175" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="213b-e5b7-14d2-c98c" name="Magna-Melta" hidden="false" targetId="2ffa-a441-e058-7780" type="profile"/>
+            <infoLink id="51fd-38ce-995c-8705" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5cf6-e999-0831-f6ed" name="Wing-mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="344e-1b30-9997-2f58">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="440e-8199-6fcd-69b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0b-0297-5f48-db81" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="344e-1b30-9997-2f58" name="Two havoc launchers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9988-6085-d43a-51ae" name="Havoc launcher" hidden="false" targetId="1615-8163-3b53-c291" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3ad4-2baa-b294-55f3" name="Two missile launchers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5dd8-034f-b148-3ab8" name="Frag Missile" hidden="false" targetId="40e6-c95c-7c8d-cf02" type="profile"/>
+                <infoLink id="a93f-a013-fe1b-82b8" name="Krak Missile" hidden="false" targetId="1e33-d8ec-f833-b584" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7189-be8c-a52e-5dba" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d1-d761-3555-5d1d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e7bd-ea1f-1d52-3de6" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c8-a192-26dd-6d20" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0e63-1442-ea6e-4894" name="Machine spirit" hidden="false" collective="false" import="true" targetId="2b68-3728-1af4-e873" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e3-a399-4621-b860" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="110b-e981-6565-d17f" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="b66d-9580-fd49-e861" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ac8a-af31-eb9a-e31f" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="305.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff7d-efed-b809-7dfd" name="Sicaran Venator Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e01e-aadb-09fb-04ef" name="Sicaran Venator Tank Destroyer" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="01b1-6981-fa8b-c34f" name="Dangerous Reactor Core" hidden="false">
+          <description>If an enemy unit inflicts a Penetrating hit on the Sicaran Venator, then they may re-roll results of a 1 on the Vehicle Damage table against it. In addition, should it suffer an Explodes! result, add +D3&quot; to the explosion’s radius.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2f25-9686-b004-e0b4" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="4465-d3a1-1a0c-b0a0" name="Tank" hidden="false" targetId="859e-eb7a-fe85-ebb0" primary="false"/>
+        <categoryLink id="17dd-6f3c-7717-128b" name="Fast" hidden="false" targetId="2f52-529a-adf2-940b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7332-1e2a-d6bb-1874" name="Neutron beam laser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0406-0eee-616a-6417" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547d-4415-ff48-6e74" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bec0-5d62-f706-0efb" name="Neutron beam laser" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Ordnance 2, Concussive, Shock Pulse</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9e23-a69f-e5ac-7b3c" name="Shock Pulse" hidden="false">
+              <description>Any vehicle (including Super-heavy vehicles) that suffers a Penetrating hit from a weapon with this special rule may only fire Snap Shots on the following game turn.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1676-11f5-3be8-5e38" name="Concussive" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3a00-a2f3-e2d2-00a2" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa6-f6e4-fb48-0bcd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d4b-2096-d037-0434" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="198c-005b-3180-74b4" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8ee2-66a6-e81b-8b4f" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="55c1-b49a-74f6-23c0" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ef95-5c04-7034-5004" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="50da-e630-c85e-48a8" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="14a9-ce18-b663-5c50" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7a15-b98c-c82e-83a8" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9f30-bf06-97aa-37b1" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5e97-0844-1442-0bcf" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8f05-74fd-0d7a-b10a" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="43bd-3bc6-2b93-6e32" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf50-e604-ceca-dd1d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="536f-b84e-fb3a-d6a1" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="86f9-0032-328f-d186" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2955-f96b-994a-4c3e" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2b7d-e0ed-5851-06b9" name="Sponsons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d80-a97f-1faf-b786" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="40e7-3bae-a614-bce6" name="2 x heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="76b1-a5f6-b427-b3bd" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb41-03a4-95a7-73ee" name="2 x lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a337-8b1c-b35b-5f7b" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0737-309a-1c09-d656" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361a-5337-74e3-e92b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b16a-2342-9ecf-db9d" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca68-bafb-131d-d33c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4aae-0b99-ae79-c1cf" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d9-0cb0-1c92-2996" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="308b-75c2-28c1-0dcf" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Pintle-mounted heavy bolter"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a88-f218-bbf6-b445" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a60c-fefd-cf1a-09b0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d988-d8c9-ec65-abcb" name="Legion Sicaran Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9ac5-976e-7790-df8c" name="Legion Sicaran Battle Tank" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4cfe-d05b-3e30-59ef" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="0a92-3dba-3058-23d4" name="Tank" hidden="false" targetId="859e-eb7a-fe85-ebb0" primary="false"/>
+        <categoryLink id="00b4-9cc6-2edc-58a5" name="Fast" hidden="false" targetId="2f52-529a-adf2-940b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8929-1a0e-5c3c-e034" name="Twin-linked accelerator cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430f-3902-4e57-d375" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a2-6c70-b7de-2dfc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d27-2ae6-b255-c7a9" name="Twin-linked accelerator cannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 6, Rending, Rapid Tracking</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="7023-eae6-1a9b-9ff1" name="Rapid Tracking" hidden="false">
+              <description>Targets may not take Jink saves against damage from this weapon.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="bdfa-c8b9-fde4-5692" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+            <infoLink id="70b4-329a-d824-3e3e" name="Rending" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1ed2-3595-b2c7-bdca" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752d-559c-86d8-7702" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9e95-7711-93ff-a0ef" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f1fb-f9a6-6ec4-1743" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7427-735e-3bba-6218" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e864-5b98-77c3-4cf0" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eba1-81af-7903-84bd" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b9bc-3795-0dc8-b400" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8133-af53-d4fc-cc51" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="221b-47cc-0691-7f49" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="44ce-be42-2ee7-cdae" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2111-d842-2dea-b5c3" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="81e8-da3b-ae5d-87da" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5b23-5326-5b6c-16b2" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1654-9291-b676-9e05" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eb16-bd67-75a2-d113" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9d39-743c-68c4-7bba" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b84d-7cc2-ae90-9e04" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="558f-d4da-7360-0398" name="Sponsons" hidden="false" collective="false" import="true" defaultSelectionEntryId="75d2-fc99-5970-6810">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0db8-0996-f5fb-590b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="75d2-fc99-5970-6810" name="2 x heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5b19-6017-15fc-e467" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70bb-e248-21e0-7502" name="2 x lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c09d-1dbc-2ebc-02d7" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="30a5-156a-e294-6a20" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull-mounted heavy bolter"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c321-1a9e-0755-0f32" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb30-5ddc-0236-ce52" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="41a5-ddeb-d1dd-6bc5" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a0-a65e-7f1b-6423" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1fdd-57b4-b2f7-0dfe" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0986-ed31-ba67-73b0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7265-4f26-21a1-99d0" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c950-485d-fe9a-4230" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e085-91c0-3d98-fcb1" name="Legion Kharybdis Assault Claw" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="59ff-e0ea-3780-2e6a" name="Legion Kharybdis Assault Claw" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7982-c9b2-0a24-2bfa" name="Independent Machine Spirits" hidden="false">
+          <description>Kharybdis may target different enemy units with each of their weapons.</description>
+        </rule>
+        <rule id="8c3f-67eb-8f68-913f" name="Heat Blast" hidden="false">
+          <description>When a model with this rule arrives via Deep Strike, or later when operating as a skimmer in Hover mode, it may if its controlling player wishes inflict a Heat Blast attack. If it does so, then models it is transporting may not disembark or embark on the turn this attack is used.</description>
+        </rule>
+        <rule id="1148-38a0-5eaa-0071" name="Heat Blast (Deep Strike)" hidden="false">
+          <description>Immediately after the model deploys using the Deep Strike rule, measure a radius of 3&quot;+D3&quot; horizontally outwards from its main hull (do not count any landing struts, etc). All models caught in the blast suffer a Str 6 AP 5 hit with no cover saves. Vehicles are struck on their weakest Armour value. Thisis counted as a flamer-based attack.</description>
+        </rule>
+        <rule id="3250-ca19-ea8f-8e31" name="Heat Blast (Fire Sweep)" hidden="false">
+          <description>If the controlling player wishes, any unit the model passes directly over (i.e., falls directly under its hull during its Movement phase) suffers D6 Str 5 AP 5 hits with no cover saves. Vehicles are struck on their weakest Armour value. This is counted as a flamer-based attack. Hits from this attack are distributed across a unit as the player suffering the attack wishes. Roll a D6 each time this attack is inflicted. On a result of a 1, the Drop Pod itself suffers a penetrating hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d6a1-c0bd-2c13-a2d1" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
+        <infoLink id="07da-1cc7-2152-b3af" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
+        <infoLink id="8d48-7f3e-8120-79ab" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bdb1-3d7a-3352-0508" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="4234-ccad-ebcd-b122" name="Flyer" hidden="false" targetId="2bf3-3d3e-dfbd-6a15" primary="false"/>
+        <categoryLink id="ba3f-c6af-7fe4-0c86" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+        <categoryLink id="7648-1795-ffef-bae9" name="Hover" hidden="false" targetId="03d8-25ec-1703-4eb7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3c6b-9d9f-665c-59f3" name="Kharybdis storm launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df3-f390-a920-ed89" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb84-c39e-eed8-329c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a00c-351b-b69a-1db6" name="Kharybdis storm launchers" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Pinning, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="11da-0683-2a61-4d38" name="Pinning" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
+            <infoLink id="e33b-6cb1-1b4c-b35f" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="29dd-0f53-84bf-af02" name="Melta-ram" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad19-60fa-55bc-5981" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0d-b098-6e97-4f8a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ef2d-e342-a99b-c007" name="Melta-ram" hidden="false">
+              <description>Although a Flyer, the Kharybdis may conduct Ram attacks as if it were a Tank while using Hover mode. It may not, however, Ram other Flyers or make such an attack on any turn in which it arrives from Reserve. It also may not conduct a Ram on any turn on which it embarks or disembarks models or uses its Heat Blast attack.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="acce-f5ad-bf41-c363" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="b66d-9580-fd49-e861" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da10-b523-ed7c-5b8a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="235.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a35-4eba-20ad-bb49" name="Leviathan Pattern Siege Dreadnought Talon" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8602-f3eb-9d85-b5e6" name="Dreadnought Talon" hidden="false" targetId="e4fa-2de4-914b-028a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1b42-6ea6-7aec-7fa4" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="cdce-32cc-5a8a-a7a3" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ec1-91cf-85b4-9ec2" name="Leviathan Siege Dreadnought" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc9-2851-9ad8-dd5d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a82-b150-a23d-8749" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c86a-7cb2-9f2f-0990" name="Leviathan Siege Dreadnought" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
+              <modifiers>
+                <modifier type="decrement" field="4123232344415441232323" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="2ec1-91cf-85b4-9ec2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3997-9588-53f7-850c" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="4123232344415441232323" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="2ec1-91cf-85b4-9ec2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd4a-d627-f73e-17a6" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="4123232344415441232323" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="2ec1-91cf-85b4-9ec2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b86-5f05-f0e3-51a0" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">8</characteristic>
+                <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+                <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
+                <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f916-52ba-bf30-8e2f" name="Reinforced Atomantic Shielding" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Leviathan Dreadnought has a 4+ invulnerable save. In addition, if the Leviathan suffers a Vehicle Explodes damage result, add +D3 Str and +D3&quot; to the radius of the blast.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="7461-0591-8ca8-a76b" name="Crushing Charge" hidden="false">
+              <description>When charging, the model inflicts 2 Hammer of Wrath attacks and gains +1 Initiative in the Assault phase of any turn in which it has charged.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="db94-b770-ae2e-a942" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="0524-3355-cc50-f07c" name="Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e1-f5e6-38c3-feaf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c0-f217-8921-8703" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="16d7-766e-f7ba-a793" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0cd0-3155-fddd-1a69" name="Phosphex discharger" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c22-6885-8267-750c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d3f7-7b07-384d-4e53" name="Phosphex discharger" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Barrage, One Use, Blast (3&quot;), Poisoned (3+), Crawling Fire, Lingering Death</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="729c-bb9a-25cd-ae1a" name="Lingering Death" hidden="false" targetId="3a2e-7a7b-1de3-78c0" type="rule"/>
+                <infoLink id="1a2c-7615-a1f1-b1c4" name="Crawling Fire" hidden="false" targetId="91ee-e6c7-272f-49e0" type="rule"/>
+                <infoLink id="19a7-7f24-38f7-58eb" name="Poisoned" hidden="false" targetId="a5ff-1cb1-bee4-d809" type="rule"/>
+                <infoLink id="c614-3617-19ee-d27a" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f085-2870-cf6b-e17e" name="Arm weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c68-9e34-cfe1-0b92">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067e-a3fd-3399-07e1" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a01-144b-cbcb-c1ba" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="58b3-2c42-d785-eb55" name="Leviathan siege drill w/ meltagun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3356-2fac-5a9c-2488" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="c6b1-cac2-4649-5548" name="Leviathan siege drill w/ meltagun" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">x2</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Wrecker, Armourbane</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="b760-b990-4127-1c05" name="Wrecker" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
+                    <infoLink id="5ee0-e7b5-487d-13e8" name="Meltagun" hidden="false" targetId="8ae4-74e5-7700-3804" type="profile"/>
+                    <infoLink id="a828-1127-6613-ee45" name="Armourbane" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8c68-9e34-cfe1-0b92" name="Leviathan siege claw w/ meltagun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92de-b901-4190-d7c4" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8c29-869d-c7fb-e369" name="Leviathan siege claw w/ meltagun" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">x2</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Melee, Wrecker, Severing Cut</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="8f54-2ad8-9c6e-f1ad" name="Severing cut" hidden="false">
+                      <description>Each time a non-vehicle model suffers an unsaved wound from this weapon, roll a D6. On a 4+, the model suffers an additional D3 wounds which must be saved separately using the weapon’s profile (note that these wounds do not themselves generate more additional wounds).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="3045-493a-e4e0-da85" name="Wrecker" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
+                    <infoLink id="89b2-2078-0fa1-c344" name="Meltagun" hidden="false" targetId="8ae4-74e5-7700-3804" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3997-9588-53f7-850c" name="Leviathan storm cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e99-fd01-9eaf-94b3" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="eb6e-c58f-e9d7-9f12" name="Leviathan storm cannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 6, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="3f46-65be-91ad-213a" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6b86-5f05-f0e3-51a0" name="Cyclonic melta lance" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c08-4f83-b75d-986b" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="0b91-790d-ee6a-68c3" name="Cyclonic melta lance" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Melta</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="d4f4-896d-8a4f-48f3" name="Melta" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bd4a-d627-f73e-17a6" name="Grav-flux bombard" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="b556-8a60-d3e5-5b3f" name="Grav-flux bombard" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">*</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Pinning, Graviton Collapse, Torsion Crusher, No Cover Saves</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="ebb1-ece9-0b02-ee04" name="Torsion Crusher" hidden="false">
+                      <description>When a target with an Armour value is struck by this weapon, the amount of Hull Point damage caused by the weapon is doubled.</description>
+                    </rule>
+                    <rule id="c522-2d22-e46a-4690" name="Graviton Collapse" hidden="false">
+                      <description>Instead of rolling To Wound normally with this weapon, any model caught in its blast must instead roll equal to or under their Strength on 2D6 or suffer a wound. Against targets with an Armour value, roll 3D6 for armour penetration instead. After the graviton pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next turn thanks to the gravity flux.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="9ca0-fba4-7860-1460" name="Ignores Cover" hidden="false" targetId="acf2-681d-4188-94d7" type="rule"/>
+                    <infoLink id="5669-5352-d8df-d8a9" name="Pinning" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3b1f-0d4f-28d5-558a" name="Hull-mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a6b6-b85e-2ae2-1d5c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6d-2fb0-9616-00c2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f6-660b-7db6-239a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a6b6-b85e-2ae2-1d5c" name="Two heavy flamers" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2172-5428-ab5d-9102" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4df5-2cf3-de16-a153" name="Two twin-linked volkite calivers" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="84d6-501c-2877-1d22" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+                    <infoLink id="4f03-af07-02e1-a845" name="Volkite Caliver" hidden="false" targetId="626c-d79c-9bb7-3407" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="33d0-88f1-31ba-9b14" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b8-242f-39da-3449" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="24b6-39da-14ac-38db" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a978-6172-7d11-d15e" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d1c4-1290-3ce4-331f" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e47-d593-00a5-6a06" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a8f7-e106-e958-dc9c" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="270.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9dc-a1a3-69ca-fc7f" name="Deredeo Pattern Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6212-9ec0-2fba-cf1c" name="Deredeo Pattern Dreadnought" hidden="false" typeId="57616c6b657223232344415441232323" typeName="Unit - Walker">
+          <characteristics>
+            <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">11</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="452c-23f5-87d8-c3dc" name="Atomantic Shielding" hidden="false" targetId="d2c4-9b50-ba08-f931" type="profile"/>
+        <infoLink id="4ea5-2bd0-4030-0039" name="Helical Targeting Array" hidden="false" targetId="9db6-835d-d4c6-d9f3" type="profile"/>
+        <infoLink id="498f-4d2f-039e-8c2f" name="Skyfire" hidden="false" targetId="be7f-8146-6cb8-9a53" type="rule"/>
+        <infoLink id="57ad-c225-8b58-8825" name="Interceptor" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ee74-44c0-546e-e301" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+        <categoryLink id="902a-592d-1f8e-3323" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="421e-4b5e-67d9-df9c" name="Hull-mounted weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c653-e47f-aa78-ab61">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce21-08e1-46b1-459a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9889-9b7d-11e8-0fee" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c653-e47f-aa78-ab61" name="Twin-linked heavy bolter" hidden="false" collective="false" import="true" targetId="f688-3fe7-4cfd-500d" type="selectionEntry"/>
+            <entryLink id="b62d-4c06-6b0d-2e24" name="Twin-linked heavy flamer" hidden="false" collective="false" import="true" targetId="14fb-92ea-b341-f84f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8e08-2358-e727-71d7" name="Main weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd4b-7db1-1f5b-1351">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5884-2a90-baed-6f36" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e7b-7fc8-5f63-ecbc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fd4b-7db1-1f5b-1351" name="Anvilus-pattern autocannon battery" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="57a4-15cb-ab49-16dd" name="Anvilus-pattern autocannon battery" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Sunder</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8a2f-2525-137d-7db7" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="1d7a-3d19-9583-7199" name="Twin-linked hellfire plasma carronade" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="bd8f-1faf-6b3a-dbd2" name="Plasma carronade (Sustained fire)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1fb8-09ef-d90e-c458" name="Plasma carronade (Maximal fire)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Gets Hot, Large Blast (5&quot;)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3605-beaa-b9d8-2bc6" name="Gets Hot" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c993-94ff-4735-07a1" name="Arachnus heavy lascannon battery" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="df16-7499-fe36-ce4a" name="Arachnus heavy lascannon battery" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Exoshock</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="38e5-2964-36ea-09b5" name="Exoshock" hidden="false">
+                  <description>If this weapon successfully scores a penetrating hit on a target, roll a D6. On the roll of a 4,+ a second automatic penetrating hit is inflicted on the same target against which cover saves may not be taken.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6656-d3f7-26bd-5643" name="Carapace system" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e0-16d0-7dd8-e5cb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8f5b-96fa-c42a-bbc8" name="Atomantic pavaise" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e1cb-2de7-c650-3604" name="Atomantic pavaise" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">This reinforced shield increases the Deredeo’s own invulnerable save to 4+ against shooting attacks, and grants friendly infantry models within 3&quot; of the Deredeo’s base an invulnerable save of 6+ against shooting attacks or boosts an invulnerable save they already possess by +1 (5+ becoming 4+, etc) to a maximum of 3+. 
+Note that the pavaise’s bonus has no effect on invulnerable saves in close combat, and its benefits do not stack with the effects of other atomantic pavaises, or other special rules, psychic powers or items of wargear which boost an existing invulnerable save.
+A Deredeo Dreadnought with an atomantic pavaise adds +D3 to its Blast radius rather than +1 if it explodes, and has an explosion strength of 5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2252-2ccb-97d1-64dd" name="Aiolos missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e2c6-d02e-ff2d-1413" name="Aiolos missile launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Pinning, Independent Tracking</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="fdce-7f66-bcf8-1c0c" name="Independent Tracking" hidden="false">
+                  <description>This weapon may fire at a different target to that of the Deredeo’s other shooting attacks if desired and ignores intervening obstacles to line of sight in open terrain. When firing at vehicles, it attacks their Side Armour value.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="7ce9-5195-9ed8-3700" name="Pinning" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="819c-0759-f357-9f65" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae31-1efa-2ada-f348" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7dbe-a819-558c-e7e6" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44cf-5026-5781-33ec" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fd5d-7c3f-1392-049e" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86b6-237b-f684-1aae" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="37ae-b896-ff76-62be" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="185.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5e5-ee6c-61dc-74a3" name="Legion Whirlwind Scorpius" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1c75-975a-8952-f167" name="Legion Whirlwind Scorpius" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">13</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">10</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3ded-3d99-b3ab-0bbc" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cc73-6266-690d-5171" name="Scorpius multi-launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bee-38c1-a8c2-1850" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c89-44a3-de4b-df09" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5039-ed79-4b8e-ebd0" name="Scorpius multi-launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Barrage, Blast (3&quot;), Rocket Barrage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="48fd-935a-98b5-43ed" name="Rocket Barrage" hidden="false">
+              <description>In a turn in which the vehicle has not moved, the multi-launcher’s rate of fire is increased to Heavy 1+D3.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53d6-010f-2657-b344" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8e-8680-2374-e07e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c275-a03a-10a3-473a" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9fd7-09c0-315a-06af" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="39be-114c-ab1d-feb8" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2ad7-5b29-59b1-e029" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9622-fad4-24f1-0b26" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4c33-c709-70f7-47c0" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1ab6-1e06-f232-4661" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f992-5ebd-351f-1ee2" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e637-3cd6-ca82-b294" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="23fa-be79-9e23-67c1" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de1e-a201-9d85-d845" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e88f-cc84-7023-7e63" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="056f-ce76-1bd5-3b9a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6907-aa04-60e6-582f" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="136b-b986-9b59-4baf" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="629b-3ddb-347f-6fd7" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a2b-b449-a516-f557" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfe8-026d-37ab-b7c8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1a47-e0cb-bd01-d280" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="362b-cd8d-8bc0-837b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5348-3866-8a24-99e2" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dcc-8c8d-c1c1-dc96" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed27-c3fa-1b21-5cb8" name="Legion Malcador Assault Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="956d-dffb-c72e-6746" name="Sub-atomantic Reactor" hidden="false">
+          <description>When rolling on the Thunderblitz and/or Catastrophic Damage tables for the Malcador, roll 2D6 and select the lower result.</description>
+        </rule>
+        <rule id="8187-40d8-8ef0-5c30" name="Battle Speed" hidden="false">
+          <description>When the Malcador Assault Tank moves Flat Out in the Shooting phase, it may choose to fire its traverse-mounted weapon at its full Ballistic Skill, either before or after the Flat Out move, but may fire no other weapons.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b8f5-8fb4-919b-e338" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a1ca-d1c2-9e5f-3eef" name="Legion Malcador Assault Tank" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a7-6ec4-12c7-4265" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9a-c5ae-5e11-05ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="893a-8bd6-f109-cce8" name="Legion Malcador Assault Tank" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+              <characteristics>
+                <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+                <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+                <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
+                <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+                <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="a27d-f54b-19a1-bc48" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0dd4-66b1-2b81-34f5" name="Hull-mounted weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b1fc-41da-9141-068d">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79fd-ebf1-bb23-d215" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db38-2e7f-2fe2-cf67" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b1fc-41da-9141-068d" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry"/>
+                <entryLink id="8ce3-8460-6d1f-ee13" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry"/>
+                <entryLink id="04c2-28ff-da50-e634" name="Autocannon" hidden="false" collective="false" import="true" targetId="d763-5459-1a3b-e778" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="6ae8-a830-485f-1dc6" name="Lascannon" hidden="false" collective="false" import="true" targetId="8036-b730-d533-e31f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3b77-f9bc-bdf8-2746" name="Demolisher cannon" hidden="false" collective="false" import="true" targetId="d7a7-7cb7-a860-475a" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="0615-5511-a6e6-2682" name="Main weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7998-0ee0-27be-8483">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed65-64e4-3547-fac8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a273-debc-c718-000d" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7998-0ee0-27be-8483" name="Battle cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="cf12-ce3f-0f5e-cd1e" name="Battle cannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+                        <characteristic name="Type" typeId="5479706523232344415441232323">Ordnance 1, Large Blast (5&quot;)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="7e3d-1c6f-b1f9-14bc" name="Twin-linked lascannon" hidden="false" collective="false" import="true" targetId="1cc8-4eeb-14e3-abab" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="62ff-906b-bc6f-3e2b" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="8617-8d2b-3448-d7b6" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="957e-bd7e-53ed-255c" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a8f6-aefa-90f2-e974" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="33e9-2377-7a51-d467" name="Flare shield" hidden="false" collective="false" import="true" targetId="1a00-5aa6-7989-a784" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="35.0"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e51d-6efc-3da6-caf0" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="75c7-08a9-8116-23f1" name="Mine plough" hidden="false" collective="false" import="true" targetId="7cdc-f829-fc87-5b9e" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="03a2-1c66-5688-3267" name="Sponson weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9128-ac53-a485-1e4f">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd2-9b7a-3f58-c644" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fecc-f8ea-bfdf-9eec" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9128-ac53-a485-1e4f" name="Two heavy bolters" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2a6a-d977-038d-4a77" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="ced1-cd2c-e874-a011" name="Two heavy flamers" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="ad04-7287-e7a4-29fd" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="f348-09fc-90cf-47f0" name="Two autocannons" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="a36e-7670-2553-a71d" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3e5f-bbe9-a777-4a0a" name="Two lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="5658-2ae6-d934-9ccf" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="71c5-db9a-7a11-7437" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e6-2ea8-b6a7-5a93" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1490-0e61-8ce4-4292" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="7ee9-fbdc-bd16-52d8" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0a38-5d3a-5b1c-7edd" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="cfc1-c85a-f557-b3fe" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c297-2d53-9ac7-e4f9" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="299f-7e3f-a043-42e0" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2776-e27f-8ca9-f869" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9b12-a907-5d20-41ee" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8040-2d68-2763-f0fe" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="265b-08b0-1cc1-430f" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="7cde-28c7-79e4-dce1" name="Squadron Command Tank" hidden="false" collective="false" import="true" targetId="dcbd-1f7e-fd81-31db" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ed27-c3fa-1b21-5cb8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="ed27-c3fa-1b21-5cb8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c216-35f6-a561-6dcd" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6072-761f-c4fc-b38d" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f29f-6ff9-80b2-cc5a" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a449-7ef4-1925-ba7a" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aac-1d2b-370e-2b90" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="275.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="81cc-991a-d6ef-72aa" name="Legion Cerberus Heavy Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7a7b-c2cb-df93-c6c9" name="Legion Cerberus Heavy Tank Destroyer" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">14</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">13</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0457-69c9-e9f0-a851" name="Legion Cerberus Heavy Tank Destroyer" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">14</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">13</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0642-7399-d65c-4b35" name="Reactor Blast" hidden="false">
+          <description>Should the Cerberus lose its last Hull Point, it rolls on the Catastrophic Damage table with a +1 modifier. The vehicle is then removed.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6d78-9505-cf5e-93e1" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2726-8089-135c-ce6b" name="Twin-linked neutron laser battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b6c-54bb-a48d-980e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc1b-3b31-fc66-7327" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3976-1d0d-3266-8d18" name="Neutron laser battery" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon D3 (roll each time the weapon is fired), Concussive, Feedback, Shock Pulse</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a2e3-2f8b-56b6-16d5" name="Concussive" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
+            <infoLink id="fee0-b5df-063b-0991" name="Shock Pulse" hidden="false" targetId="c0a6-5a38-2ea5-e740" type="rule"/>
+            <infoLink id="22e8-4bfd-9287-1653" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+            <infoLink id="5734-4a4f-a7c9-e3cd" name="Feedback" hidden="false" targetId="f7ca-13e0-1e74-ac32" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4676-c190-97b7-1ffa" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7f99-3dc7-f403-6d2a" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8b39-e740-ffb3-18d5" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f7-402c-6fb7-0860" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="934e-9998-a4e6-189a" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b7c-619c-675d-3c7a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4b17-3c61-a352-2ab5" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d3b7-d984-91c4-5a9e" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1c3a-104b-48b9-ef42" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c9c0-e260-0e75-fb64" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8bd5-78ce-cee4-8dbc" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6898-c7ba-a2fb-0356" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="de02-2d5d-b502-ca05" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1a8a-661f-c34f-9f09" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="03e4-84b2-ba6c-4a70" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1653-17f5-1131-3eb6" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d49d-436c-ca3c-81c8" name="Sponsons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7834-a890-df8f-015e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="74d8-994d-dc7e-5c86" name="Two heavy bolters" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cb13-0cec-1057-2fca" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbda-42cf-eee8-c49e" name="Two lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b55c-4fe6-5448-5ff9" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="87ef-a91f-d2f0-f972" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ea-48a1-607d-572c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5b2d-9492-ae74-926e" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15fa-9126-2c05-2fa5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="13e0-edff-9a30-7dc2" name="Flare shield" hidden="false" collective="false" import="true" targetId="1a00-5aa6-7989-a784" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c8-f952-3b05-68a5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="395.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9830-16d8-bc56-4ba5" name="Legion Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5181-a2cd-c78d-cf31" name="Legion Typhon Heavy Siege Tank" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">14</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">14</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bd43-b0ff-d909-b5ad" name="Crushing Weight" hidden="false" targetId="f99b-0f92-5429-9425" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a446-55e7-6d99-99cf" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1fa9-da47-97a3-5e1b" name="Dreadhammer siege cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253c-5cc7-85e8-cce8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71a4-88b7-80de-2d7b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="080e-d94b-a2f3-b7ae" name="Dreadhammer siege cannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;/48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 1, Massive Blast (7&quot;), No Cover Saves Allowed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e796-4eec-9ec8-c13b" name="Dreadhammer siege cannon" hidden="false">
+              <description>The Dreadhammer siege cannon has two ranges depending on whether its vehicle has remained stationary or not. If the vehicle that the cannon is mounted on moved in the preceding Movement phase, the weapon has a range of 24&quot;. If it did not move, the range is increased to 48&quot;.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1c44-14e6-8556-e2ff" name="Ignores Cover" hidden="false" targetId="acf2-681d-4188-94d7" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ba5-cf4e-35ec-bb4d" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d19-f897-5720-fa99" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="19d5-c1a9-cd51-9541" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2d8e-8302-2213-b667" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b27a-952d-fd05-245a" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f891-21ee-f1c4-08b6" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="20f5-d067-4884-79be" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="24d1-2802-9049-7642" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="de2b-f39d-6f8a-067d" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7f22-89b2-3052-ef94" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8c8a-21ef-7c08-81c6" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8a63-2a66-c336-2a6b" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3744-6149-db41-8773" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8e28-b974-7900-321c" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="17a5-4ab4-b81c-8640" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bae-b0af-c62d-8b80" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="76b9-d6ff-d1d3-5188" name="Sponsons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e4-bc89-63dc-8949" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1c9d-cdd2-778d-ae51" name="Two heavy bolters" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a89b-1413-c08f-75c1" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c23a-3f95-268b-7ffb" name="Two lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5a17-0d53-40e7-0756" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="08e6-8d0a-1850-c17f" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="781f-db07-cb1f-ed91" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="07f2-e065-78bc-f87e" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1301-cdc0-8ef4-6d73" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="395.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b183-efb3-2030-afe8" name="Legion Falchion Super-Heavy Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e6c-b790-4834-6f45" name="Falchion" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <modifiers>
+            <modifier type="increment" field="425323232344415441232323" value="1">
+              <conditions>
+                <condition field="selections" scope="b183-efb3-2030-afe8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddb0-f7ff-29bc-ddf6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a8d5-a4aa-7f6f-a3b0" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f554-f1c1-3768-3f6d" name="Volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db18-d84f-9e47-ff07" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="523a-163e-3861-bc02" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5bd2-0470-cab1-ce5e" name="Volcano cannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <modifiers>
+                <modifier type="set" field="5479706523232344415441232323" value="Primary Weapon 1, Large Blast (5&quot;), Shock Pulse, Feedback">
+                  <conditions>
+                    <condition field="selections" scope="b183-efb3-2030-afe8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee86-0a13-edd7-4240" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">120&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">D</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 1, Large Blast (5&quot;)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="ee86-0a13-edd7-4240" name="Neutron wave capacitor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d026-43db-cf42-6d30" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c4e5-d749-a70d-7b0e" name="Neutron wave capacitor" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The neutron wave capacitor adds the Shock Pulse and Feedback special rules (see page 82) to the Falchion’s volcano cannon profile.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0eaa-b976-8b35-ee5c" name="Shock Pulse" hidden="false" targetId="c0a6-5a38-2ea5-e740" type="rule"/>
+            <infoLink id="1ed2-7321-d3d8-5cdd" name="Feedback" hidden="false" targetId="f7ca-13e0-1e74-ac32" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c1b8-b7df-5042-474d" name="Quad lascannon sponsons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9806-c8b8-fbbb-7437" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66aa-0e42-49ed-64e1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fbc9-1c24-6b66-1c67" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+            <infoLink id="b3ed-722e-8b2b-3fb6" name="Quad lascannon" hidden="false" targetId="11be-a284-6c9c-a9e0" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4532-7f5f-e556-82c0" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cadd-8d3a-6c45-1436" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2049-98c2-51bd-83aa" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2673-cf47-1488-4e7b" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c461-9e49-fed7-69be" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a81b-8b0f-d542-5b8e" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1ecb-cc07-9b95-a503" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1941-9b1d-3951-06be" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="feca-c6ef-47e4-30df" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2415-49d5-3c76-233e" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cd25-a7df-9830-f47c" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fc54-b212-512a-b9c5" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d351-9beb-4d01-b6ab" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8a25-4240-71e7-f004" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="81f8-2ef2-7ca6-570e" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796c-850c-bf55-66eb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="95e9-33a0-0dfa-a69f" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7ca3-8887-3faf-e0c4" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="819e-e686-0beb-5eb5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d28b-fc6f-f3ca-e8ac" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="644f-0e29-f547-e58f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0347-e0ba-f4b7-6477" name="Space Marine Legion Crew" hidden="false" collective="false" import="true" targetId="ddb0-f7ff-29bc-ddf6" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="525.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7d9-d510-287f-040a" name="Legion Stormblade Super-Heavy Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="099b-f88e-bc0d-a089" name="Legion Stormblade Super-Heavy Tank" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <modifiers>
+            <modifier type="increment" field="425323232344415441232323" value="1">
+              <conditions>
+                <condition field="selections" scope="a7d9-d510-287f-040a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddb0-f7ff-29bc-ddf6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">13</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7142-8ff3-20c8-7a6b" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5046-57b2-2781-20e2" name="Plasma blastgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09c-f249-0fe9-2d54" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e36-a7e5-ac58-63c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1610-4883-07a4-57ad" name="Plasma blastgun (Rapid)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 2, Massive Blast (7&quot;)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8694-e407-a42d-301f" name="Plasma blastgun (Overload)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">96&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 1, Apocalyptic Blast (10&quot;)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="042b-0c0f-49b7-6423" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5cab-4d3f-52ef-155b" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ffd1-0595-e03b-2315" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb3-6ff5-33a9-c9cd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="766b-8139-fac4-33cc" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a506-e61c-e176-fb80" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2026-7605-56ac-2d54" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1beb-0fbe-0bf3-83e6" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4fbc-2c7f-1d79-ee77" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f3f2-5d51-f93e-a0bf" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6486-976a-304e-3aec" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d57f-0f52-fb0e-e18d" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2941-b8aa-7775-d401" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b615-1b2d-1297-f047" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cac9-f79d-6412-3164" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a92c-7e8c-d286-297e" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c63c-20e3-2f5a-460b" name="Sponsons" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="2c66-0110-8312-3f44" value="2.0">
+              <conditions>
+                <condition field="selections" scope="a7d9-d510-287f-040a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c63c-20e3-2f5a-460b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2c66-0110-8312-3f44" value="4.0">
+              <conditions>
+                <condition field="selections" scope="a7d9-d510-287f-040a" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c63c-20e3-2f5a-460b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acfb-6c27-6c4c-46fa" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c66-0110-8312-3f44" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4db3-3ef6-acdb-ff59" name="Lascannon/heavy bolter sponson" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef2-c208-d056-15ab" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="063b-3241-6a81-5ea2" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+                <infoLink id="118c-28fc-74e3-48ae" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5479706523232344415441232323" value=", Twin-linked"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="fa08-d80b-d89e-e742" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee49-7ce9-bfe1-aa94" name="Lascannon/heavy flamer sponson" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a3-5f1e-790a-f667" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8369-96e5-8e15-3494" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile"/>
+                <infoLink id="1249-d427-0132-0ce0" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5479706523232344415441232323" value=", Twin-linked"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d010-2a4f-06c5-2445" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0d48-e0ae-40e8-d9af" name="Twin-linked heavy bolter" hidden="false" collective="false" import="true" targetId="f688-3fe7-4cfd-500d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca87-cf9d-08b3-dcc8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="749e-02c3-458e-1e27" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3cb9-1929-cdd7-103c" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b9-4217-40c3-23a8" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="575c-17f7-bc87-a5b7" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d8-4ea0-1754-8331" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ea56-881a-d674-3078" name="Space Marine Legion Crew" hidden="false" collective="false" import="true" targetId="ddb0-f7ff-29bc-ddf6" type="selectionEntry"/>
+        <entryLink id="dd74-2455-86ac-dc95" name="Super-heavy Command Tank" hidden="false" collective="false" import="true" targetId="c0ea-080e-f585-cc42" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="455.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="618f-58eb-9a2b-039b" name="Legion Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="2115-d41e-fec7-ca52" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7a24-a33a-30c6-cf64" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f2de-272d-1263-b056" name="Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -15981,6 +18131,9 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
       </costs>
     </selectionEntry>
     <selectionEntry id="3069-57a9-c6cd-cd1a" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6384-b44a-9274-8724" name="Havoc launcher" hidden="false" targetId="1615-8163-3b53-c291" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -17064,6 +19217,225 @@ If a Land Raider Proteus is fitted with an Explorator Augury Web, its transport 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2115-d41e-fec7-ca52" name="Legion Spartan Assault Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d571-4b78-29db-67fa" name="Legion Spartan Assault Tank" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">14</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">14</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">14</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="886f-955e-2904-bb0e" name="Legion Spartan Assault Tank" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Spartan has a transport capacity of 25 models.</characteristic>
+            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
+            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">The Spartan has one access point at the front and two on each side.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ebab-3181-9fca-cb84" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9b3-bce1-ec85-db49" name="Tank" hidden="false" targetId="859e-eb7a-fe85-ebb0" primary="false"/>
+        <categoryLink id="75fc-86e4-69f2-e41b" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3527-dfce-b81c-9990" name="Sponsons" hidden="false" collective="false" import="true" defaultSelectionEntryId="6464-a3f6-942e-1ab3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d19-1ca7-fe2c-9a44" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af13-2159-adc7-e61a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6464-a3f6-942e-1ab3" name="2 x Quad lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="89e7-f00a-7b4b-94f7" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+                <infoLink id="12ac-2b09-c451-f57c" name="Quad lascannon" hidden="false" targetId="11be-a284-6c9c-a9e0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f4c8-68d8-aa5d-c714" name="2 x Laser destroyers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8894-27ae-8b74-ce1b" name="Laser Destroyer" hidden="false" targetId="aee7-812f-7924-09e5" type="profile"/>
+                <infoLink id="aa9e-bbd6-c2e2-bfd5" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6123-3c89-912b-5b20" name="Hull-mounted weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3784-7ed2-a270-f4bc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09c6-cdb5-760a-6566" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a71-d8cd-0209-55b8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3784-7ed2-a270-f4bc" name="Twin-linked heavy bolter" hidden="false" collective="false" import="true" targetId="f688-3fe7-4cfd-500d" type="selectionEntry"/>
+            <entryLink id="4043-6d82-908f-a10b" name="Twin-linked heavy flamer" hidden="false" collective="false" import="true" targetId="14fb-92ea-b341-f84f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="41b5-d1b9-16b2-328a" name="Vehicle Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9179-3a65-d939-264f" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="9abd-e06d-3443-c6c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a3b-6114-a4b0-69cb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f3a2-42bc-5961-18a5" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="f375-0cfe-5079-ed45" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9cff-3a9f-8a4c-5408" name="Auxiliary Drive" hidden="false" collective="false" import="true" targetId="6c4d-c5f6-d8af-2420" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="40f3-af05-06ac-d44f" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9911-5a3c-0c03-a409" name="Flare shield" hidden="false" collective="false" import="true" targetId="1a00-5aa6-7989-a784" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e965-6093-84a0-9341" name="Pintle-mounted weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ca-4aba-1c12-bac1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0f99-2edd-4ac9-3672" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="453f-eff6-0f18-8ce2" name="Combi-Grenade Launcher" hidden="false" collective="false" import="true" targetId="af38-bcdf-19e0-8111" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9272-e348-b659-a0cd" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="75f0-3e76-c2eb-ea2e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9aca-6018-33c6-5138" name="Combi-Melta" hidden="false" collective="false" import="true" targetId="2e47-fac6-fced-2c53" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6eea-b5ea-39df-1f29" name="Combi-Plasma" hidden="false" collective="false" import="true" targetId="fc62-5f61-9712-b042" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e4f0-35f8-457a-bd63" name="Combi-Volkite Charger" hidden="false" collective="false" import="true" targetId="296a-6d51-bc6b-f22a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8f6a-ae3b-b1a9-3c9b" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="a161-76b3-9ef1-da7b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="658d-47d7-72bf-3cdb" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="d7be-cd49-ad6d-189e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0178-f977-6d92-361f" name="Multi-melta" hidden="false" collective="false" import="true" targetId="d1c0-746f-2b39-5f17" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="70bc-c4ec-7a9b-05f3" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="3069-57a9-c6cd-cd1a" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e65-aff8-6d83-9a8f" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="b66d-9580-fd49-e861" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9e2b-7804-fb12-b184" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac32-27c8-b4fc-d9df" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6365-b4d0-3267-16f0" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b47-4409-a434-1bca" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ba17-3aa9-d1d3-afbb" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="263a-6848-9bef-4ba2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f8-4b1b-b9bc-a24c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6c0b-e503-825b-987e" name="Machine spirit" hidden="false" collective="false" import="true" targetId="2b68-3728-1af4-e873" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="738d-a0f7-4cab-05bf" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="305.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a00-5aa6-7989-a784" name="Flare shield" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b22-4a59-4aa3-f486" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e3c4-bf28-5c96-3544" name="Flare shield" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A flare shield operates against shooting attacks that strike the vehicle’s front arc. It reduces the strength of attacks by weapons with the Template or Blast type by -2, and other shooting attacks’ Strength by -1. A flare shield has no effect on close combat attacks or attacks inflicted with the Destroyer special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddb0-f7ff-29bc-ddf6" name="Space Marine Legion Crew" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0444-b5af-8aec-ace6" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0ea-080e-f585-cc42" name="Super-heavy Command Tank" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe1-ac79-b0ba-88c5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a7c9-7023-073c-6f67" name="Super-heavy Command Tank" hidden="false">
+          <description>If a vehicle has been upgraded to a Super-heavy command tank, all allied infantry units within 24&quot; may re-roll failed Morale checks.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -17441,6 +19813,12 @@ Note: As soon as a Drop Pod is deployed, its doors are automatically opened to t
 
 Note that this addition does not apply to other listed Drop Pod types, which have their own variants of this special rule and are costed appropriately to reflect this.</description>
     </rule>
+    <rule id="f99b-0f92-5429-9425" name="Crushing Weight" hidden="false">
+      <description>A Super-heavy vehicle with this special rule adds +1 to all rolls on the Thunderblitz table when making a Ram or Tank Shock attack.</description>
+    </rule>
+    <rule id="f7ca-13e0-1e74-ac32" name="Feedback" hidden="false">
+      <description>If a weapon with this type fails its Penetration roll against a target vehicle’s armour, or fails a To Wound roll against a target model (note that successful armour saves do not count for this) roll a D6. If the result is a 1, dangerous energy feedback along the beam causes the firing model to lose 1 Hull Point or wound.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ffec-b3af-d33c-59a7" name="Needle pistol" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -17558,6 +19936,27 @@ When the Helical Targeting Array is not used on any given turn, the Dreadnought 
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
         <characteristic name="Type" typeId="5479706523232344415441232323">Ordnance 1, Barrage, Large Blast (5&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1615-8163-3b53-c291" name="Havoc launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Blast (3&quot;), Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2c4-9b50-ba08-f931" name="Atomantic Shielding" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">This model has a 5+ invulnerable save against shooting attacks and explosions, and 6+ against attacks suffered in close combat. In addition, if this model suffers a ‘Vehicle Explodes’ damage result, add +1&quot; to the radius of the blast.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="11be-a284-6c9c-a9e0" name="Quad lascannon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Twin-linked</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
