@@ -220,6 +220,9 @@
     <categoryEntry id="a3a4-9356-1093-60d6" name="Character" hidden="false"/>
     <categoryEntry id="7ff1-9df7-6ded-1cd1" name="Skimmer" hidden="false"/>
     <categoryEntry id="2f52-529a-adf2-940b" name="Fast" hidden="false"/>
+    <categoryEntry id="24e0-e412-4254-dcd3" name="Super-heavy vehicle" hidden="false"/>
+    <categoryEntry id="331b-54c0-d506-d8fd" name="Super-heavy Flyer" hidden="false"/>
+    <categoryEntry id="9ba2-c5df-8b02-c54f" name="Walker" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="New ForceEntry" hidden="true">
