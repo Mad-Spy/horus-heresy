@@ -223,13 +223,9 @@
     <categoryEntry id="24e0-e412-4254-dcd3" name="Super-heavy vehicle" hidden="false"/>
     <categoryEntry id="331b-54c0-d506-d8fd" name="Super-heavy Flyer" hidden="false"/>
     <categoryEntry id="9ba2-c5df-8b02-c54f" name="Walker" hidden="false"/>
+    <categoryEntry id="2507-d5b9-5612-3b32" name="Configuration" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="61f7-09c7-326c-8c49" name="New ForceEntry" hidden="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true"/>
-      </modifiers>
-    </forceEntry>
     <forceEntry id="9e2a-7716-34fd-7f5d" name="Crusade" publicationId="ca571888--pubN73996" page="133" hidden="false">
       <categoryLinks>
         <categoryLink id="b1c1-c696-6fd2-8c7e" name="HQ" hidden="false" targetId="918a-0a2e-4bc3-623d" primary="false">
@@ -271,6 +267,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1c-4765-6a10-bdbf" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="17ae-7485-6793-c1cf" name="Configuration" hidden="false" targetId="2507-d5b9-5612-3b32" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

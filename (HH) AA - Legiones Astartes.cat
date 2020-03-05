@@ -7502,6 +7502,32 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="8889-c4bf-e2cc-a37f" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d88-50c3-db1d-5f11" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="794f-3754-4b84-247f" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="e172-193a-a3e3-d48a" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3cc8-386f-f96f-6dd5" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fece-891d-53e1-723a" name="Melta bombs" hidden="false" collective="false" import="true" targetId="d435-10f4-18d1-8dfe" type="selectionEntry">
@@ -7740,6 +7766,33 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="df09-ee26-51cb-63b0" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff0-a6a8-8dd6-e55d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f7da-0318-50a5-f76b" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="a9f4-c1ec-00a2-f347" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="9ee3-82f6-3139-9767" type="selectionEntry"/>
+            <entryLink id="bc93-a4be-7315-e60d" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e338-0f5d-1d1a-a9d0" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c313-80c6-098c-b955" name="Jump pack" hidden="false" collective="false" import="true" targetId="d7ff-a55f-ca42-4ce0" type="selectionEntry">
@@ -7916,6 +7969,32 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="a577-d837-b30c-6b87" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d761-4167-e7fe-f611" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2be2-91cf-4c28-61db" name="Legion Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="2115-d41e-fec7-ca52" type="selectionEntry"/>
+            <entryLink id="7395-cc47-c53c-cf8c" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="49d6-fcd8-fcca-6724" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="5775-2bb4-9a5e-74a1" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2f1-048c-6afd-47d2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9cad-2446-ed10-ea75" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="5775-2bb4-9a5e-74a1" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2f1-048c-6afd-47d2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e983-679b-8584-12d9" name="Terminator Armour Pattern" hidden="false" collective="false" import="true" targetId="72cd-5f7d-fef4-d576" type="selectionEntryGroup"/>
@@ -8091,6 +8170,32 @@
                   <costs>
                     <cost name="pts" typeId="points" value="35.0"/>
                   </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bcfe-afb3-56a5-baf2" name="Dedicated Transport" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2539-622d-6781-6cc8" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7ae8-2aad-032a-7099" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+                <entryLink id="2bbf-a9ca-c746-b5ef" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="c7ca-df5b-5c4a-9c78" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -8470,6 +8575,54 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="35a2-d58c-cdde-f843" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="2917-2c02-eac2-47f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f1d2-a855-b681-6ece" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="146f-d0b1-8133-2ef3" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="2917-2c02-eac2-47f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1d2-a855-b681-6ece" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="b94f-c225-16f1-71b9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="2917-2c02-eac2-47f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1d2-a855-b681-6ece" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="146f-d0b1-8133-2ef3" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="146f-d0b1-8133-2ef3" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94f-c225-16f1-71b9" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e6b0-d339-a85a-41f8" name="Legion Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="9dcb-f6fc-f94f-2e50" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e860-f28f-95ae-bfe6" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -8604,6 +8757,54 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb08-90a1-e532-30b3" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="bd51-ba1c-2de7-0d9c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3f65-afb9-1cf6-12fe" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="dceb-cdcc-e874-617f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="bd51-ba1c-2de7-0d9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f65-afb9-1cf6-12fe" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="fd55-f644-72ca-9fae" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="bd51-ba1c-2de7-0d9c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f65-afb9-1cf6-12fe" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="fd55-f644-72ca-9fae" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd55-f644-72ca-9fae" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dceb-cdcc-e874-617f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b103-30ec-1d18-5957" name="Legion Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="9dcb-f6fc-f94f-2e50" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f2-4ee9-4ade-90bf" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -9367,6 +9568,23 @@ At the end of its player turn, roll a D6 for any Contemptor-Cortus using this op
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1deb-5889-7e23-f49d" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="19cc-ee54-1bb1-89ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d860-6a96-e981-691a" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04a-20c8-e1a0-98e9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0685-c0f9-fbbd-4fd2" name="Legion Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="9dcb-f6fc-f94f-2e50" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -9631,6 +9849,40 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ac2e-3b11-3d84-0ce2" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906a-ab00-d056-d4c6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="56f7-5162-88cf-d887" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="87b4-7b39-9299-0839" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08d6-7de2-8697-97af" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d15f-d449-daec-8896" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d6c6-48ed-4791-bed4" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -10379,6 +10631,31 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="90e5-e249-eb36-5b87" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6c9-c4ad-440e-f00a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fc37-f49a-6a0b-b2e7" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="9ee3-82f6-3139-9767" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="2776-2038-9470-25da" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c70-bf97-c4db-0741" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="627d-2e48-0f11-608e" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="49d6-fcd8-fcca-6724" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="2776-2038-9470-25da" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c70-bf97-c4db-0741" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d811-ce0a-3221-aaf1" name="Melta bombs" hidden="false" collective="false" import="true" targetId="d435-10f4-18d1-8dfe" type="selectionEntry">
@@ -10648,6 +10925,32 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
             <entryLink id="54c4-2ddb-b71c-570f" name="Rotor cannon" hidden="false" collective="false" import="true" targetId="e027-a0e3-e2df-ff3d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Rotor cannons"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="be31-2892-94a8-6c2d" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a372-d418-faf6-f98c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5716-9854-a100-8baa" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="4858-2583-4f45-52e6" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0af5-6c2a-e592-cfaf" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -11124,6 +11427,33 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="256a-bc80-bf8a-dd3a" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0a-d735-b4df-87e6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d2c1-2888-c0a1-3447" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="9976-b3c9-76c9-5a11" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="226e-4ac7-671c-f94a" type="selectionEntry"/>
+            <entryLink id="8508-3e82-957c-7354" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="64ab-be65-78d9-f08d" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b34f-2490-085e-5d7c" name="Melta bombs" hidden="false" collective="false" import="true" targetId="d435-10f4-18d1-8dfe" type="selectionEntry">
@@ -11452,6 +11782,33 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="39be-568f-daba-f2ad" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca7a-65c3-600f-d4e8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ff87-13a1-0d80-4f51" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="6d06-527a-ce87-43ca" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="9ee3-82f6-3139-9767" type="selectionEntry"/>
+            <entryLink id="49e0-31f2-babd-342f" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="27df-85a8-d99f-1f59" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -12566,67 +12923,6 @@ Note that this means while a preferred target type is within range, it is possib
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a66-c9eb-91df-cdcf" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="ca3d-7b28-84a9-46e1" name="Anvillus pattern Dreadclaw drop pod" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
-          <characteristics>
-            <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
-            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
-            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b245-bc29-abc0-8108" name="Anvillus pattern Dreadclaw drop pod" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Dreadclaw has a transport capacity of 10 or can be used to transport a single Dreadnought from the following:
-- Legion Dreadnought
-- Legion Mortis Dreadnought
-- Contemptor Dreadnought
-- Contemptor Mortis
-- Contemptor-Cortus</characteristic>
-            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
-            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">One access hatch beneath the hull. In practice, passengers can disembark at ground level within 2&quot; of the hull.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="02a9-841f-55bd-18be" name="Drop Pod Assault" hidden="false">
-          <description>A Dreadclaw, and any unit it transports, must always be held in Reserve and always enters play using the Deep Strike rules, and counts as a Drop Pod for the wider use of the Drop Pod Assault rule for the army. At the beginning of the controlling player’s first player turn, they must choose half of their Drop Pod units (rounding up) to make a Drop Pod Assault. These units arrive on their controlling player’s first player turn. The arrival of the remaining Drop Pods in the player&apos;s force is rolled for as usual for the mission. A unit that Deep Strikes via Drop Pod may not assault in the turn it arrives. In the case of the Dreadclaw, unlike other Drop Pods it is not immobile, however, after it has landed, it is treated as a Flyer with Hover mode (which starts off as hovering after it has arrived via Deep Strike).</description>
-        </rule>
-        <rule id="6eb1-4576-5345-5ef2" name="Heat Blast" hidden="false">
-          <description>When a model with this rule arrives via Deep Strike, or later when operating as a skimmer in Hover mode, it may if its controlling player wishes inflict a Heat Blast attack. If it does so, then models it is transporting may not disembark or embark on the turn this attack is used.</description>
-        </rule>
-        <rule id="6708-b664-796f-dc98" name="Heat Blast (Deep Strike)" hidden="false">
-          <description>Immediately after the model deploys using the Deep Strike rule, measure a radius of 3&quot;+D3&quot; horizontally outwards from its main hull (do not count any landing struts, etc). All models caught in the blast suffer a Str 6 AP 5 hit with no cover saves. Vehicles are struck on their weakest Armour value. Thisis counted as a flamer-based attack.</description>
-        </rule>
-        <rule id="7523-8958-3715-5de4" name="Heat Blast (Fire Sweep)" hidden="false">
-          <description>If the controlling player wishes, any unit the model passes directly over (i.e., falls directly under its hull during its Movement phase) suffers D6 Str 5 AP 5 hits with no cover saves. Vehicles are struck on their weakest Armour value. This is counted as a flamer-based attack. Hits from this attack are distributed across a unit as the player suffering the attack wishes. Roll a D6 each time this attack is inflicted. On a result of a 1, the Drop Pod itself suffers a penetrating hit.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="2d6a-743c-4c91-425a" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
-        <infoLink id="9e0f-2664-47c3-0d8a" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-        <infoLink id="25bd-a75e-9b67-fac9" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="441b-76a5-ce97-53fc" name="New CategoryLink" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
-        <categoryLink id="ad1b-82f8-6b34-2681" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
-        <categoryLink id="0f08-21fb-bcb2-8379" name="Hover" hidden="false" targetId="03d8-25ec-1703-4eb7" primary="false"/>
-        <categoryLink id="eba2-a484-f065-c2cc" name="Flyer" hidden="false" targetId="2bf3-3d3e-dfbd-6a15" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="22aa-8a4f-e298-c7d3" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="b66d-9580-fd49-e861" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="678a-59bb-d26f-30fb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1826-e381-7a0f-a427" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="115.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="fccf-e4eb-5391-8b6b" name="Legion Landspeeder Squadron" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0484-ab8d-82bd-4d67" name="New CategoryLink" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
@@ -12717,158 +13013,6 @@ Note that this means while a preferred target type is within range, it is possib
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="04b5-dcd6-4226-b09a" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="e9fa-19e8-b3c7-d299" name="Storm Eagle Assault Gunship" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
-          <characteristics>
-            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
-            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-            <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="9c82-651c-2c28-4e3e" name="Storm Eagle Assault Gunship" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Storm Eagle has a transport capacity of 20 models.</characteristic>
-            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
-            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">The Storm Eagle has four access points: one on both sides and ramps at the front and rear.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="682a-6774-2ddd-5978" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-        <infoLink id="0be2-0f74-fd03-264c" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
-        <infoLink id="78f7-92a6-22da-bf54" name="Machine Spirit" hidden="false" targetId="e9de-d706-5fe9-fa50" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9506-2996-1588-52ef" name="New CategoryLink" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
-        <categoryLink id="0239-e352-f9bf-f9a0" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e2b0-5f94-3c2c-2e22" name="Vengeance launcher" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a8-23a7-acb7-30ca" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598a-79f9-f913-01f6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d373-f739-6b87-ecd3" name="Vengeance launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Large Blast (5&quot;)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="691b-b7e0-8761-c8d0" name="Exchange heavy bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f39-d9fc-255e-eabb">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef3-0ad4-7f86-1425" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df8-46dc-6e78-aae7" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1f39-d9fc-255e-eabb" name="Twin-linked heavy bolter" hidden="false" collective="false" import="true" targetId="f688-3fe7-4cfd-500d" type="selectionEntry"/>
-            <entryLink id="10a7-1ba4-a5db-de59" name="Missile launcher" hidden="false" collective="false" import="true" targetId="4bd5-9cb9-266a-7823" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="92dc-fef6-19e1-8a20" name="Twin-linked multi-melta" hidden="false" collective="false" import="true" targetId="f817-87ea-5323-e87c" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3d3f-1fa9-ccea-4dd3" name="Exchange Tempest rockets" hidden="false" collective="false" import="true" defaultSelectionEntryId="cdac-2ee0-d701-7bbe">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896c-975b-f7ed-2ab1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb9-d73d-93cc-3d40" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="cdac-2ee0-d701-7bbe" name="Four Tempest rockets" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6cf1-52e0-751c-79ef" name="Tempest rocket" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
-                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
-                    <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy, Sunder, One Shot</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="0ee4-b96f-255e-6ea5" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
-                <infoLink id="359b-38c3-4858-c3e6" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="41e0-6441-ea1c-5fb5" name="Four Hellstrike missiles" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="36ae-bbaf-11f5-cd75" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
-                <infoLink id="3bb4-713e-8ed3-3272" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
-                <infoLink id="70b6-f17b-2a18-9831" name="Hellstrike missile" hidden="false" targetId="6a90-25fa-4937-64c7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8ef5-fbf8-f6af-c364" name="Two twin-linked lascannon" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="42ef-8b9b-5fa9-392d" name="Twin-linked lascannon" hidden="false" collective="false" import="true" targetId="1cc8-4eeb-14e3-abab" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc93-ddfc-b7c7-5acc" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dbf-d7fe-222a-eb1b" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="40.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7fcc-7a32-e199-b548" name="Vehicle Upgrades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="edde-a252-f0eb-0a3d" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f535-5fc0-439e-fc0a" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="3a48-69e1-8180-de2a" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3d-2c11-57e9-bc6e" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="18c2-1ce5-e1ab-f0d8" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e56-cd90-4a1a-d962" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="210.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f6b-7a35-cac0-fa3c" name="Xiphon Pattern Interceptor" hidden="false" collective="false" import="true" type="unit">
@@ -13230,97 +13374,6 @@ Note that this means while a preferred target type is within range, it is possib
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="294b-1e48-d366-2e7b" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="d821-c6cb-078a-afc5" name="Deathstorm Drop Pod" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
-          <characteristics>
-            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
-            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
-            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
-            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
-            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="6907-aae5-4754-6a92" name="Area Denial" hidden="false">
-          <description>Any successful Morale checks or Pinning tests caused by a Deathstorm Drop Pod on the turn it deploys must be re-rolled.</description>
-        </rule>
-        <rule id="3db4-ec2a-04a1-21db" name="Automated Weapons" hidden="false">
-          <description>When a Deathstorm Drop Pod lands, it opens fire indiscriminately in its first Shooting phase. Each unit (enemy or friendly) within 12&quot; of the model’s weapon mounts comes under attack. Each target unit with one or more models in range suffers D3 full shooting attacks using the profile listed for the Deathstorm’s armament instead of the Deathstorm Drop Pod’s normal attack this turn, resolved at BS 2. In subsequent turns, the Deathstorm may continue to fire once normally at the closest enemy target.</description>
-        </rule>
-        <rule id="7be7-6a1b-d464-265e" name="Independent Machine Spirits" hidden="false">
-          <description>Deathstorm Drop Pods may target different enemy units with each of their weapons.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="3d8d-f367-1cea-3749" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
-        <infoLink id="780b-5a2f-c831-d939" name="Immobile" hidden="false" targetId="f46f-086e-0760-d376" type="rule"/>
-        <infoLink id="63a2-0858-f150-7d23" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2cd1-255d-dc7a-dcfc" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2615-0e1f-4923-d16c" name="Drop Pod Assault" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fe-2304-5537-0654" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="72c7-6bd7-9d32-9a6e" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ab39-d426-13e9-b485" name="Weapon system" hidden="false" collective="false" import="true" defaultSelectionEntryId="9969-9c34-13ab-71bc">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62c-ac04-180a-30b3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c8-ed5c-aef0-f3db" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9969-9c34-13ab-71bc" name="Deathstorm frag launchers system" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="9fdd-5eb2-4daa-fa10" name="Deathstorm frag launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
-                    <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Blast (3&quot;), Pinning</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="0650-f7c7-6e16-f1cc" name="Pinning" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5b4d-63bc-d3bf-24f3" name="Deathstorm krak launchers system" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="68f4-e68f-648b-a339" name="Deathstorm krak launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
-                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
-                    <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2d3e-3f4a-0ced-88ec" name="Legion Heavy Support Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3af4-d890-d5eb-b115" name="Legiones Astartes" hidden="false" targetId="23a4-a37f-e8e8-c756" type="rule"/>
@@ -13650,6 +13703,32 @@ Note that this means while a preferred target type is within range, it is possib
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a7ef-752d-aab3-bd55" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="962a-5828-2d82-b6dd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2b22-0a7f-10cc-3efb" name="Legion Rhino Armoured Carrier" hidden="false" collective="false" import="true" targetId="8b0a-3c77-94ab-2f50" type="selectionEntry"/>
+            <entryLink id="aabc-08c2-90a9-39ed" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d7ef-cca0-ac9b-a114" name="Legion Drop Pod" hidden="false" collective="false" import="true" targetId="2d29-1785-52ca-4d8a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -15613,25 +15692,25 @@ In addition, the Caestus has an invulnerable save of 5+ against any attacks agai
             <characteristic name="HP" typeId="485023232344415441232323">5</characteristic>
           </characteristics>
         </profile>
+        <profile id="9d06-8223-0956-5096" name="Legion Kharybdis Assault Claw" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Kharybdis has a Transport Capacity of 20 models or can be used to transport either a unit of Rapier Carrier teams or a single Legion Dreadnought, Legion Contemptor Dreadnought, ContemptorCortus Class Dreadnought or Leviathan Pattern Dreadnought.</characteristic>
+            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
+            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">One access hatch beneath the hull. In practice, you may choose any point at the base of the hull to measure from when disembarking.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="7982-c9b2-0a24-2bfa" name="Independent Machine Spirits" hidden="false">
-          <description>Kharybdis may target different enemy units with each of their weapons.</description>
-        </rule>
-        <rule id="8c3f-67eb-8f68-913f" name="Heat Blast" hidden="false">
-          <description>When a model with this rule arrives via Deep Strike, or later when operating as a skimmer in Hover mode, it may if its controlling player wishes inflict a Heat Blast attack. If it does so, then models it is transporting may not disembark or embark on the turn this attack is used.</description>
-        </rule>
-        <rule id="1148-38a0-5eaa-0071" name="Heat Blast (Deep Strike)" hidden="false">
-          <description>Immediately after the model deploys using the Deep Strike rule, measure a radius of 3&quot;+D3&quot; horizontally outwards from its main hull (do not count any landing struts, etc). All models caught in the blast suffer a Str 6 AP 5 hit with no cover saves. Vehicles are struck on their weakest Armour value. Thisis counted as a flamer-based attack.</description>
-        </rule>
-        <rule id="3250-ca19-ea8f-8e31" name="Heat Blast (Fire Sweep)" hidden="false">
-          <description>If the controlling player wishes, any unit the model passes directly over (i.e., falls directly under its hull during its Movement phase) suffers D6 Str 5 AP 5 hits with no cover saves. Vehicles are struck on their weakest Armour value. This is counted as a flamer-based attack. Hits from this attack are distributed across a unit as the player suffering the attack wishes. Roll a D6 each time this attack is inflicted. On a result of a 1, the Drop Pod itself suffers a penetrating hit.</description>
+        <rule id="d4eb-649d-6dd2-f729" name="Independent Machine Spirits" hidden="false">
+          <description>This model may target different enemy units with each of its weapons. </description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="d6a1-c0bd-2c13-a2d1" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
         <infoLink id="07da-1cc7-2152-b3af" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
         <infoLink id="8d48-7f3e-8120-79ab" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
+        <infoLink id="72d2-3d58-0e1a-5d77" name="Heat Blast" hidden="false" targetId="e9aa-c4ae-e34b-42a2" type="infoGroup"/>
+        <infoLink id="e6a8-d2e5-c63e-19ae" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bdb1-3d7a-3352-0508" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
@@ -15646,7 +15725,7 @@ In addition, the Caestus has an invulnerable save of 5+ against any attacks agai
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb84-c39e-eed8-329c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a00c-351b-b69a-1db6" name="Kharybdis storm launchers" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="a00c-351b-b69a-1db6" name="Kharybdis storm launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -15670,7 +15749,7 @@ In addition, the Caestus has an invulnerable save of 5+ against any attacks agai
           </constraints>
           <rules>
             <rule id="ef2d-e342-a99b-c007" name="Melta-ram" hidden="false">
-              <description>Although a Flyer, the Kharybdis may conduct Ram attacks as if it were a Tank while using Hover mode. It may not, however, Ram other Flyers or make such an attack on any turn in which it arrives from Reserve. It also may not conduct a Ram on any turn on which it embarks or disembarks models or uses its Heat Blast attack.</description>
+              <description>Although it is a Flyer, the Kharybdis may conduct Ram attacks as if it were a Tank while using Hover mode. It may not, however, Ram other Flyers or make such an attack on any turn on which it arrives from Deep Strike, embarks or disembarks models or makes a Heat Blast attack.</description>
             </rule>
           </rules>
           <costs>
@@ -17745,6 +17824,9 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
                 <infoLink id="9aa7-4e73-30de-52db" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
                 <infoLink id="4cb8-655c-aa3f-a9d1" name="Hellstrike missile" hidden="false" targetId="6a90-25fa-4937-64c7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1abb-aa35-f8cf-8cbe" name="Six Thunderhawk cluster bombs" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -17800,6 +17882,9 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -17896,6 +17981,9 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
           <infoLinks>
             <infoLink id="104a-fe6b-d6cd-cace" name="Melta" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -17921,6 +18009,9 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
                 <infoLink id="0908-bad7-2306-b6cd" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
                 <infoLink id="7e54-61d5-858a-ee0e" name="Interceptor" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a026-bf0a-6cca-4318" name="Command vox relay" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -18085,6 +18176,9 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
               <infoLinks>
                 <infoLink id="71c7-de0a-82af-702c" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ae53-2743-bd48-ce0b" name="Macro-bomb cluster payload" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -18130,11 +18224,50 @@ The Thunderhawk Transporter may additionally carry two Rhino-sized vehicles, or 
         <cost name="pts" typeId="points" value="850.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7e68-67ba-8382-37f4" name="Rites of War" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e2-12b1-ad5b-4dd1" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f127-7ae1-031d-5a3d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f3e5-3f27-0789-42b9" name="New CategoryLink" hidden="false" targetId="2507-d5b9-5612-3b32" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d911-5fa4-7b75-7cee" name="Rites of War" hidden="false" collective="false" import="true" targetId="73b8-8861-d32c-c5bb" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="618f-58eb-9a2b-039b" name="Legion Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="2115-d41e-fec7-ca52" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a24-a33a-30c6-cf64" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4bee-9a7b-39d7-3bbf" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" targetId="9ef8-91cc-0799-b675" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5d8f-8cd8-85a8-d124" name="New CategoryLink" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8573-5ff4-c8ca-7743" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="226e-4ac7-671c-f94a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bdfb-7a42-c647-ba2a" name="Fast Attack" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b456-53c2-54aa-9073" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" targetId="ec59-85a8-0a30-5b41" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b2c4-ed4d-464b-9e8f" name="New CategoryLink" hidden="false" targetId="44c5-2f97-080f-16bd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fcd7-248d-72ae-0b18" name="Deathstorm Drop Pod" hidden="true" collective="false" import="true" targetId="ec59-85a8-0a30-5b41" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c3a-29bc-74ef-a4e9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="84f0-e07e-2b17-9d25" name="Fast Attack" hidden="false" targetId="5a2b-1cc2-126e-d673" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -19363,17 +19496,21 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
         </profile>
         <profile id="24ec-b9b3-d347-fe31" name="Legion Drop Pod" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Legion Drop Pod may transport 10 models or 1 Legion Dreadnought or 1 Rapier Carrier and Crew</characteristic>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Legion Drop Pod may transport 10 models or a single Legion Dreadnought or Rapier Carrier and Crew</characteristic>
             <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
             <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">None</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7e63-d2c1-02da-a4d5" name="Immobile" hidden="false" targetId="f46f-086e-0760-d376" type="rule"/>
         <infoLink id="5365-190d-d9cb-2b94" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
         <infoLink id="5b7f-6cd4-ec80-62c3" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
+        <infoLink id="9666-fba7-9f59-d7d6" name="Impact-reactive Doors" hidden="false" targetId="ecb2-94ad-6010-3367" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b935-0001-47e6-c99c" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+        <categoryLink id="edc8-41ac-677c-6d3b" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="7c85-d545-0633-1667" name="Twin Linked Bolter" hidden="false" collective="false" import="true" targetId="79b0-94a7-9fc0-be28" type="selectionEntry">
           <constraints>
@@ -19399,7 +19536,7 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
         </profile>
         <profile id="8a34-7d4d-f256-a8bf" name="Legion Dreadnought Drop Pod" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Legion Dreadnought Drop Pod may transport a single Dreadnought or Dreadnought variant (including Contemptor Dreadnoughts)</characteristic>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Legion Dreadnought Drop Pod may transport a single Legion Dreadnought, Legion Contemptor Dreadnought, Contemptor-Cortus Class Dreadnought or Leviathan Pattern Dreadnought.</characteristic>
             <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
             <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">None</characteristic>
           </characteristics>
@@ -19407,20 +19544,20 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
       </profiles>
       <rules>
         <rule id="2bc1-f5d9-1673-d9de" name="Burning Retros" hidden="false">
-          <description>Owing to the meteoric descent speed and the fiery blast of the Drop Pod’s retros on arrival, the Legion Dreadnought Drop Pod has the Shrouded special rule on the game turn it arrives (note that this also applies to any Interceptor fire or similar effects it might be subject to). 
-- Once the Drop Pod lands, its doors are opened automatically, but the Dreadnought inside does not have to deploy out unless the controlling player wishes, and if this is the case, though it may still be targeted by shooting attacks, it may not be charged while this rule is in effect.
--The dissipating fireball clouds the Drop Pod so that should the Dreadnought carried by the Drop Pod remain on any part of its structure (including its doors) while this rule is in effect, the Dreadnought and the Drop Pod benefits from the Shrouded special rule. The Shrouded rule also applies to any unit targeted by any shooting attack whose line of sight passes through or over the Drop Pod on the game turn of its arrival. Note that this will also affect the Dreadnought firing out through the cloud.
-- The burning retro’s effect lasts from the player turn in which the Dreadnought Drop Pod landed until the controlling player’s next player turn. After this point, both the Drop Pod and the Dreadnought may be assaulted and shot at normally.</description>
+          <description>Owing to the meteoric descent speed and the fiery blast of the Drop Pod’s retros on arrival, the Legion Dreadnought Drop Pod and any Dreadnought which disembarks from it gain the Shrouded special rule when they arrive from Reserve, until the beginning of the controlling player’s next turn.</description>
         </rule>
         <rule id="b5e1-78b9-4153-e84f" name="Drop Pod Assault" hidden="false">
           <description>Legion Drop Pods always enter play using the Deep Strike rules, and units who have purchased Drop Pods as transports must always be deployed in them. At the beginning of the controlling player’s first player turn, they must choose half of their Drop Pod units (rounding up) to make a Drop Pod Assault with. These units arrive on their player’s first player turn. The arrival of the remaining Drop Pods in the player’s force is rolled for as usual for the mission. A unit that Deep Strikes via Drop Pod may not assault in the turn it arrives. Note: As soon as a Drop Pod is deployed, its doors are automatically opened to their full extent.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="805f-11fc-ac43-fdc4" name="Immobile" hidden="false" targetId="f46f-086e-0760-d376" type="rule"/>
+        <infoLink id="805f-11fc-ac43-fdc4" name="Impact-reactive Doors" hidden="false" targetId="ecb2-94ad-6010-3367" type="rule"/>
         <infoLink id="09d4-f3c5-723b-53b3" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
-        <infoLink id="e18c-376f-8471-152d" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f8c-9776-6d75-7e64" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+        <categoryLink id="8ac2-5b45-9af0-8686" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
@@ -20385,6 +20522,9 @@ If a Land Raider Proteus is fitted with an Explorator Augury Web, its transport 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d519-ca74-2052-8bb8" name="Hyperios air-defence missile launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -20406,6 +20546,274 @@ If a Land Raider Proteus is fitted with an Explorator Augury Web, its transport 
         <infoLink id="65b1-4000-64bc-56c9" name="Skyfire" hidden="false" targetId="be7f-8146-6cb8-9a53" type="rule"/>
         <infoLink id="d5e3-62e9-6116-82a2" name="Interceptor" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ef8-91cc-0799-b675" name="Anvillus pattern Dreadclaw drop pod" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="afa8-6d1c-21ee-ab4a" name="Anvillus pattern Dreadclaw drop pod" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45ed-d047-970c-41cf" name="Anvillus pattern Dreadclaw drop pod" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Dreadclaw has a Transport Capacity of 10 models, or can be used to transport a single Legion Dreadnought, Legion Contemptor Dreadnought or Contemptor-Cortus Class Dreadnought.</characteristic>
+            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
+            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">One access hatch beneath the hull. In practice, you may choose any point at the base of the hull to measure from when disembarking.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5946-6427-fb6d-30a2" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
+        <infoLink id="fa7c-002b-1645-cca4" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+        <infoLink id="c1a1-7c79-43c9-bbd0" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
+        <infoLink id="c19b-d0bc-8d9e-f2e7" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
+        <infoLink id="cd8e-9cdb-d2f8-250e" name="Heat Blast" hidden="false" targetId="e9aa-c4ae-e34b-42a2" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e77-7659-dabd-c3db" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+        <categoryLink id="6bbb-c11b-b4bf-2ea7" name="Hover" hidden="false" targetId="03d8-25ec-1703-4eb7" primary="false"/>
+        <categoryLink id="9855-1691-231c-2295" name="Flyer" hidden="false" targetId="2bf3-3d3e-dfbd-6a15" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ba36-72aa-eee1-da7a" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="b66d-9580-fd49-e861" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d5b-d696-ccd2-9c05" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5baa-ad7a-b92d-50c4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="226e-4ac7-671c-f94a" name="Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5b30-6cd5-29f8-5da8" name="Storm Eagle Assault Gunship" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ccd-0cd8-2334-2326" name="Storm Eagle Assault Gunship" hidden="false" typeId="307d-047f-ca13-706b" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">The Storm Eagle has a transport capacity of 20 models.</characteristic>
+            <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
+            <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">The Storm Eagle has four access points: one on both sides and ramps at the front and rear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7b04-4ce6-3cf8-4f98" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+        <infoLink id="4a51-07cb-dde9-0a89" name="Assault Vehicle" hidden="false" targetId="45cf-653a-4ff6-f22d" type="rule"/>
+        <infoLink id="e914-b125-c338-1591" name="Machine Spirit" hidden="false" targetId="e9de-d706-5fe9-fa50" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c989-f463-d543-945f" name="Vehicle" hidden="false" targetId="2c55-2037-45a4-a4ce" primary="false"/>
+        <categoryLink id="2047-e453-3f86-d905" name="Flyer" hidden="false" targetId="2bf3-3d3e-dfbd-6a15" primary="false"/>
+        <categoryLink id="4f2c-832f-6aed-4a1f" name="Hover" hidden="false" targetId="03d8-25ec-1703-4eb7" primary="false"/>
+        <categoryLink id="ec9e-5b19-bede-c9be" name="Transport" hidden="false" targetId="b543-5ba8-6c05-6118" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a20b-0b7a-17db-50be" name="Vengeance launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d749-a63f-3837-00c8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddad-ec04-56d3-b170" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9144-dbfa-dd9a-64d9" name="Vengeance launcher" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Large Blast (5&quot;)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d7c4-ff22-de76-5920" name="Exchange heavy bolter" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11fd-f9be-bfec-4438" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17e-e3e2-0dda-6b78" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2aa9-b4e3-df48-68e4" name="Twin-linked heavy bolter" hidden="false" collective="false" import="true" targetId="f688-3fe7-4cfd-500d" type="selectionEntry"/>
+            <entryLink id="c835-f497-0bab-8dd6" name="Missile launcher" hidden="false" collective="false" import="true" targetId="4bd5-9cb9-266a-7823" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7a54-ddf3-72a9-f9eb" name="Twin-linked multi-melta" hidden="false" collective="false" import="true" targetId="f817-87ea-5323-e87c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ac85-5ae7-c75d-cad5" name="Exchange Tempest rockets" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f5-d767-9bb5-dde9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c272-13ed-1fb8-db22" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1d58-7c67-0c29-1360" name="Four Tempest rockets" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="601f-59d5-3591-ccce" name="Tempest rocket" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
+                    <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+                    <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                    <characteristic name="Type" typeId="5479706523232344415441232323">Heavy, Sunder, One Shot</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fc51-a110-1536-193c" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+                <infoLink id="8c25-7299-4e9a-368e" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e97-43f9-8a73-ba1f" name="Four Hellstrike missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ef99-75b3-718b-a09a" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+                <infoLink id="0231-ff01-bb3b-8d30" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
+                <infoLink id="2b3c-34f8-1218-9120" name="Hellstrike missile" hidden="false" targetId="6a90-25fa-4937-64c7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b76-43a6-868d-479b" name="Two twin-linked lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="4277-16eb-b875-b679" name="Twin-linked lascannon" hidden="false" collective="false" import="true" targetId="1cc8-4eeb-14e3-abab" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80dd-7569-36ce-89fb" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0e-5b39-8d5c-fd95" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c3e-02f5-6404-2d51" name="Vehicle Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1bb5-f43c-18d2-ff4e" name="Armoured ceramite" hidden="false" collective="false" import="true" targetId="87d8-dd62-f90a-a49e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b37-3523-9464-3353" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="caf1-daa4-4f24-1398" name="Searchlight" hidden="false" collective="false" import="true" targetId="b43b-8e9a-0ebe-fb82" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d4-8902-b44c-6628" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7af3-82a4-3cd7-85b9" name="Extra Armour" hidden="false" collective="false" import="true" targetId="230f-3211-585d-3f53" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b0-1075-c806-63d9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="210.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec59-85a8-0a30-5b41" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="12aa-10ab-9d3a-7ff3" name="Deathstorm Drop Pod" hidden="false" typeId="56656869636c6523232344415441232323" typeName="Unit - Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
+            <characteristic name="Front" typeId="46726f6e7423232344415441232323">12</characteristic>
+            <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
+            <characteristic name="Rear" typeId="5265617223232344415441232323">12</characteristic>
+            <characteristic name="HP" typeId="485023232344415441232323">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ba2c-ca97-38da-8398" name="Area Denial" hidden="false">
+          <description>Any successful Morale checks or Pinning tests caused by a Deathstorm Drop Pod on the turn it deploys must be re-rolled.</description>
+        </rule>
+        <rule id="54a0-81fe-a27e-9678" name="Deathstorm Landing Volley" hidden="false">
+          <description>A Deathstorm Drop Pod opens fire indiscriminately in the first Shooting phase after it arrives from reserve. Each unit (friendly or enemy) which has one or more models within 12&quot; of the hull of the model suffers a single shooting attack using the profile listed for the Deathstorm Drop Pod’s armament, instead of its normal shooting attack this turn. In subsequent turns, the Deathstorm may fire normally in any direction from its weapon mounting.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa8e-e184-7ab3-8087" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+        <infoLink id="b4cc-fbaa-1c45-6e82" name="Immobile" hidden="false" targetId="f46f-086e-0760-d376" type="rule"/>
+        <infoLink id="fb7c-359c-5b40-8505" name="Inertial Guidance System" hidden="false" targetId="a1df-7c9d-fbdd-cccf" type="rule"/>
+        <infoLink id="7701-72af-b8af-8af2" name="Drop Pod Assault" hidden="false" targetId="fe77-87f0-1137-e3b5" type="rule"/>
+        <infoLink id="df1c-4915-cd33-af58" name="Impact-reactive Doors" hidden="false" targetId="ecb2-94ad-6010-3367" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="b13a-9757-0b0b-7513" name="Deathstorm launcher system" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f83-b2d3-5754-b2fc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f0-07d5-4122-61ec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb3f-dcdd-ff71-cf17" name="Deathstorm launcher system (frag)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Blast (3&quot;), Pinning</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e6f2-bf58-e8ae-2205" name="Deathstorm launcher system (krak)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="da93-d791-b49f-a439" name="Deathstorm launcher system" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">-</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">When making an attack with this weapon, choose one of the following profiles:</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -20746,6 +21154,18 @@ If a Land Raider Proteus is fitted with an Explorator Augury Web, its transport 
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="73b8-8861-d32c-c5bb" name="Rites of War" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349c-4da2-7ccf-a670" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2c3a-29bc-74ef-a4e9" name="Orbital Assault" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="dca4-9af6-2c79-6f32" name="Psi-shock" hidden="false">
@@ -20777,17 +21197,29 @@ choice with that Praetor, but do not have to be deployed with them and are treat
       <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting. Note that this special rule is granted by certain items of wargear with the same or similar name and may sometimes appear in an Army List entry’s Wargear section.</description>
     </rule>
     <rule id="fe77-87f0-1137-e3b5" name="Drop Pod Assault" hidden="false">
-      <description>Legion Drop Pods always enter play using the Deep Strike rules and units who have purchased Drop Pods as transports must always be deployed in them. At the beginning of the controlling player’s first player turn, they must choose half of their Drop Pod units (rounding up) to make a Drop Pod Assault. These units arrive on their player’s first player turn. The arrival of the remaining Drop Pods in the player’s force is rolled for as usual for the mission. A unit that Deep Strikes via Drop Pod may not assault in the turn it arrives. 
-
-Note: As soon as a Drop Pod is deployed, its doors are automatically opened to their full extent. Once a Drop Pod lands, all passengers must disembark and no models can embark for the rest of the game.
-
-Note that this addition does not apply to other listed Drop Pod types, which have their own variants of this special rule and are costed appropriately to reflect this.</description>
+      <description>All units with this special rule are Drop Pods and must enter play using the Deep Strike special rule, and any unit which has purchased a Drop Pod as a transport must be deployed within it. At the beginning of the controlling player’s first turn, they must choose half of their Drop Pod units (rounding up) to make a Drop Pod Assault. These units arrive on their controlling player’s first turn. The arrival of the remaining Drop Pods in the player’s force is rolled for as usual for the mission.</description>
     </rule>
     <rule id="f99b-0f92-5429-9425" name="Crushing Weight" hidden="false">
       <description>A Super-heavy vehicle with this special rule adds +1 to all rolls on the Thunderblitz table when making a Ram or Tank Shock attack.</description>
     </rule>
     <rule id="f7ca-13e0-1e74-ac32" name="Feedback" hidden="false">
       <description>If a weapon with this type fails its Penetration roll against a target vehicle’s armour, or fails a To Wound roll against a target model (note that successful armour saves do not count for this) roll a D6. If the result is a 1, dangerous energy feedback along the beam causes the firing model to lose 1 Hull Point or wound.</description>
+    </rule>
+    <rule id="ecb2-94ad-6010-3367" name="Impact-reactive Doors" hidden="false">
+      <description>As soon as a Drop Pod is deployed, its doors are automatically opened to their full extent. All passengers must disembark immediately when the doors open and no models can embark for the rest of the game. 
+
+Once it has been deployed, a Drop Pod cannot move and counts as a vehicle that has suffered an irreparable Immobilised result on the Vehicle Damage table (although no Hull point loss is suffered)</description>
+    </rule>
+    <rule id="ead2-14f6-2c95-b789" name="Heat Blast" hidden="false">
+      <description>Players may, if they wish, choose to make a Heat Blast attack when the model is operating in Hover mode, as described below. Heat Blast attacks may never target Zooming Flyers or Swooping Monstrous Creatures. Roll a D6 each time a Heat Blast attack is made. On a 1, the Drop Pod itself suffers a penetrating hit with no saves of any kind allowed.
+
+Heat Blast attacks take either of the two forms described below and only one Heat Blast attack may be made during a given turn</description>
+    </rule>
+    <rule id="9693-1c25-5db6-845d" name="Heat Blast (Deep Strike)" hidden="false">
+      <description> Immediately after the model deploys using the Deep Strike rule, measure a radius of 3&quot;+D3&quot; horizontally outwards from its main hull (do not count any landing struts, etc.). All models caught in the blast suffer a Str 6 AP 5 hit with the Ignores Cover special rule. Vehicles are struck on their weakest Armour Value. This is counted as a flamer-based attack. If this mode of Heat Blast attack is used, models may not embark or disembark from the Drop Pod on the same turn.</description>
+    </rule>
+    <rule id="e294-868c-e39c-7b36" name="Heat Blast (Fire Sweep)" hidden="false">
+      <description> During the movement phase, if the controlling player wishes, any unit the model passes directly over (i.e., falls directly under its hull) suffers D6 Str 5 AP 5 hits with the Ignores Cover special rule. Vehicles are struck on their weakest Armour Value. This is counted as a flamer-based attack. Hits caused by this attack are allocated by the opposing player.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -21023,6 +21455,13 @@ When the Helical Targeting Array is not used on any given turn, the Dreadnought 
         <infoLink id="a3f8-f4de-b49f-fa4c" name="Heat Seeker" hidden="false" targetId="9793-9e27-775f-fe97" type="rule"/>
         <infoLink id="3b1d-8e77-f9ae-1e36" name="Skyfire" hidden="false" targetId="be7f-8146-6cb8-9a53" type="rule"/>
         <infoLink id="9952-26b1-14b6-b11c" name="Interceptor" hidden="false" targetId="ca3e-e94e-58f6-75d9" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e9aa-c4ae-e34b-42a2" name="Heat Blast" hidden="false">
+      <infoLinks>
+        <infoLink id="b201-34d1-a4e3-aa00" name="Heat Blast" hidden="false" targetId="ead2-14f6-2c95-b789" type="rule"/>
+        <infoLink id="772e-b566-9e5e-d2ac" name="Heat Blast (Deep Strike)" hidden="false" targetId="9693-1c25-5db6-845d" type="rule"/>
+        <infoLink id="e3ce-6e40-95ce-4e19" name="Heat Blast (Fire Sweep)" hidden="false" targetId="e294-868c-e39c-7b36" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
