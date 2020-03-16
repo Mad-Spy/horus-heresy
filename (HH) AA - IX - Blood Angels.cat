@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="7bd1-9e9a-6328-f165" name="IX - Blood Angels " revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="107" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <entryLinks>
-    <entryLink id="54c9-353e-6887-e1e1" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" targetId="398f-2938-2ec3-c2c1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0a93-3dcb-f0ac-c3fb" name="New CategoryLink" hidden="false" targetId="918a-0a2e-4bc3-623d" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-  </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="398f-2938-2ec3-c2c1" name="Legion Praetor in Artificer Armor" hidden="false" collective="false" import="true" type="upgrade">
-      <entryLinks>
-        <entryLink id="8992-d4d3-e79f-f0c6" name="A Legion Praetor may take one of the following:" hidden="false" collective="false" import="true" targetId="a764-9b05-169d-f3d2" type="selectionEntryGroup"/>
-        <entryLink id="147f-7146-ece3-61ce" name="A Legion Praetor may exchange their bolt pistol for one of the following:" hidden="false" collective="false" import="true" targetId="cc88-aeb4-97e2-587e" type="selectionEntryGroup">
-          <selectionEntries>
-            <selectionEntry id="53bf-fcbb-0577-f705" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade"/>
-          </selectionEntries>
-        </entryLink>
-        <entryLink id="5e55-b526-121b-51d3" name="A Legion Praetor may exchange their chainsword/combat blade for one of the following:" hidden="false" collective="false" import="true" targetId="2e1f-47ca-d8c0-fde0" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
+    <selectionEntry id="b25c-daea-1ace-1bb7" name="Iliastus pattern assault cannon" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="0556-81a6-dc8b-93ac" name="Blade of Perdition" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="9aba-44d4-df98-b2b5" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="4493-c8c0-01ea-0035" name="Hand Flamer" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="c2ef-d08c-27b0-e3dc" name="Dawnbreaker Cohort" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="039a-8987-4f31-c5c3" name="Crimson Paladins" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="e393-22f9-adb7-c250" name="The Angels&apos;s Tears" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="2321-9e0b-b625-b476" name="Contemptor- Incaendius Dreadnought" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="ba27-e48e-d76c-3339" name="Judiciar Aster Crohne" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="62f0-14cb-8b24-7430" name="Chapter Master Raldoron" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="339c-511b-01c2-d1b6" name="Sanguinius" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink id="9635-6a03-eb12-021a" name="Legiones Astartes" targetId="3dbd-2316-231a-79ac" type="catalogue" importRootEntries="true"/>
